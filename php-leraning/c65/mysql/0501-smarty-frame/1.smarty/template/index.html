@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		{{css file='./index.css'}}
+
+	</head>
+	<body>
+		<hr />
+		{{'中国人中国字'|color:'green'}}
+		<hr />
+		<table border="1" >
+			<tr>
+				<td>sid</td>
+				<td>姓名</td>
+				<td>性别</td>
+				<td>操作</td>
+			</tr>
+			{{foreach from=$data item=v}}
+			<tr>
+				<td>{{$v.sid}}</td>
+				<td>{{$v.sname}}</td>
+				<td>{{$v.sex}}</td>
+				<td><a href="./del.php?id={{$v.sid}}">删除</a></td>
+			</tr>
+			{{/foreach}}
+		</table>
+	</body>
+</html>

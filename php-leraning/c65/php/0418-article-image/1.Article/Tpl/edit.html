@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<title>Document</title>
+		<link rel="stylesheet" type="text/css" href="./Tpl/bootstrap/css/bootstrap.min.css" />
+		<style type="text/css">
+			#box {
+				width: 600px;
+				margin: 20px auto;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="box">
+			<a href="index.php" class="btn btn-info btn-block">返回首页</a>
+			<form action="" method="post">
+				<div class="form-group">
+					<input type="text" class="form-control" id="exampleInputEmail1" placeholder="请输入标题" name="title" style="margin-top: 10px;" value="<?php echo $oldData['title']; ?>">
+				</div>
+				<div class="form-group">
+					<textarea name="content" rows="10" cols="" class="form-control" style="resize: none;" placeholder="请输入文章内容"><?php echo $oldData['content'] ?></textarea>
+				</div>
+				<button type="submit" class="btn btn-primary">编辑</button>
+			</form>
+
+		</div>
+
+	</body>
+
+</html>

@@ -1,0 +1,2 @@
+设置页面：先检测cookie是否存在？--->不存在生成一个cookie,存在就不会生成(cookie里面保存着是sessionID)----->在服务器tmp目录生成一个session文件（它的名称其实就是sessionID，它的里面保存就是session的值）
+读取页面：找到cookie----->读取里面的sessionID------->根据sessionID找到对应的session文件------>读取里面的内容------>最后得到值

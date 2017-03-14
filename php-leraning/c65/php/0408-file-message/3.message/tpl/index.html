@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<table border="1" cellspacing="" cellpadding="">
+			<tr>
+				<th>key</th>
+				<th>昵称</th>
+				<th>内容</th>
+				<th>操作</th>
+			</tr>
+			<?php foreach($data as $k => $v): ?>
+				<tr>
+					<td><?php echo $k ?></td>
+					<td><?php echo $v['nickname'] ?></td>
+					<td><?php echo $v['content'] ?></td>
+					<td>
+						<a href="./edit.php?id=<?php echo $k ?>">编辑</a>
+						<a href="./del.php?id=<?php echo $k ?>">删除</a>
+					</td>
+				</tr>
+			<?php endforeach ?>
+		</table>
+		<hr />
+		<form action="" method="post">
+			昵称：<input type="text" name="nickname" id="" />
+			<br />
+			内容: <textarea name="content" rows="" cols=""></textarea>
+			<br />
+			<input type="submit" value="留言"/>
+		</form>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</body>
+</html>

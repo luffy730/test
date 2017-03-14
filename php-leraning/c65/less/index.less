@@ -1,0 +1,31 @@
+body{
+    background: grey;
+}
+//变量
+@color:blue;
+//混合
+.colorA{
+    color: @color;
+    font-size: 30px;
+}
+ul{
+    li{
+        a{
+            .colorA;
+            font-size: 10px;
+        }
+    }
+}
+div{
+       a{
+          .colorA;
+           &:hover{
+               color: darkblue;
+           }
+       }
+}
+
+
+
+
+

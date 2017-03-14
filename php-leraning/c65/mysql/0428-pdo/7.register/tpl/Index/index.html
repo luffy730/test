@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<h2>首页</h2>
+		<a href="./index.php?c=Reg">注册</a>
+		<table border="1" cellspacing="" cellpadding="">
+			<?php foreach($data as $u): ?>
+				<tr>
+					<td><?php echo $u['uid'] ?></td>
+					<td><?php echo $u['username'] ?></td>
+				</tr>
+			<?php endforeach ?>
+		</table>
+	</body>
+</html>
+
+
+
+
+

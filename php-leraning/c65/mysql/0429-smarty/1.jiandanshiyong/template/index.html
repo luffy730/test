@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--载入公共的头部-->
+		{{include file='./header.html'}}
+		<hr />
+		{{*我是私密的注释，在编译完成之后是看不到的*}}
+		<hr />
+		{{$d.webname}}
+		<hr />
+		{{$a.web.age}}
+		<hr />
+		<!--获得get参数-->
+		{{$smarty.get.page}}
+		<hr />
+		<!--获得常量WWW-->
+		{{$smarty.const.WWW}}
+		<hr />
+		<!--获得当前时间-->
+		{{$smarty.now|date_format:"%y-%m-%d %H:%M"}}
+		<hr />
+		<table border="1" cellspacing="" cellpadding="">
+			<!--foreach循环-->
+			{{foreach from=$arcData item=v}}
+				<!--设置默认值-->
+				<tr><td>{{$v.title|default:'我是默认值：后盾网www.houdunwang.com'}}</td></tr>
+			{{/foreach}}
+		</table>
+		<hr />
+		<!--将字符串转为小写-->
+		{{'ABC'|lower|upper}}
+		<hr />
+		<!--截取字符串-->
+		{{'中国人要写好中国字'|truncate:6}}
+		<hr />
+		<!--用literal包裹的部分不解析-->
+		{{literal}}
+			手册说明：调用变量：{{$b}}
+		{{/literal}}
+		<hr />
+		<!--if的使用-->
+		{{if $a.web.name=='后盾网' && $a.web.age=='30'}}
+			这就是后盾网
+		{{else}}
+			这不是后盾网
+		{{/if}}
+		<hr />
+		<!--foreach循环-->
+		<table border="1" cellspacing="" cellpadding="">
+			{{foreach from=$arcData key=k item=v}}
+				<tr>
+					<td>$k的值是：{{$k}}</td>
+					<td>标题是：{{$v.title|default:'我是默认值'}}</td>
+				</tr>
+			{{/foreach}}
+		</table>
+		<hr />
+		<!--section复杂的循环-->
+		<table border="1">
+			<!--简单写法-->
+			{{section loop=$arcData name=n}}
+				<tr><td>{{$arcData[n].title}}</td></tr>
+			{{/section}}
+		</table>
+		<hr />
+		<table border="1">
+			<!--复杂写法-->
+			<!--
+			loop是循环谁
+			name就是loop后面数组的下标
+			start从哪里开始
+			max截取多少条
+			step跳步
+			-->
+			{{section loop=$arcData name=n start=1 max=5 step=2}}
+				<tr><td>{{$arcData[n].title}}</td></tr>
+			{{/section}}
+		</table>
+		<hr />
+		<table border="1" >
+			{{section loop=$arcData name=n}}
+				<!--如果是第一条的话就变成红色-->
+				{{if $smarty.section.n.first}}
+					<tr style="color:red"><td>{{$arcData[n].title}}</td></tr>
+				{{else}}
+					<!--如果是第234条变为绿色-->
+					{{if $smarty.section.n.index>=1 && $smarty.section.n.index<=3}}
+						<tr style="color: green;"><td>{{$arcData[n].title}}</td></tr>
+					{{else}}
+						<tr><td>{{$arcData[n].title}}</td></tr>
+					{{/if}}
+				{{/if}}
+			{{/section}}
+		</table>
+		<hr />
+		<!--测试自定义好的变量调节器-->
+		{{'汉字是中国字'|truncate_c:5}}
+		<hr />
+		<!--
+		自定义单标签
+		（1）找到plugins里面的以function.开头的文件复制一个改名
+		 (2) 处理好return 出去
+		-->
+		{{js file="./index.js"}}
+		
+		
+
+		
+	</body>
+</html>
+
+
+
+
+

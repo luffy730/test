@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		{{$smarty.now}}
+		<hr />
+		<table border="1" cellspacing="" cellpadding="">
+			{{foreach from=$data item=v}}
+			<tr><td>{{$v.sname}}</td></tr>
+			{{/foreach}}
+		</table>
+	</body>
+</html>

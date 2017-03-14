@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<?php if(isset($_SESSION['username'])): ?>
+			欢迎<?php echo $_SESSION['username'] ?>回来 <a href="./index.php?c=member&a=out">退出</a>
+		<?php else: ?>
+			<a href="./index.php?c=member&a=login">登陆</a> | <a href="index.php?c=member&a=reg">注册</a>
+		<?php endif ?>
+		<hr />
+		<h2>首页</h2>
+	</body>
+</html>
+
+
+

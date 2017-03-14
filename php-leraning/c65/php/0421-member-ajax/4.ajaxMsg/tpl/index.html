@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="./tpl/bootstrap/css/bootstrap.min.css"/>
+		<style type="text/css">
+			#box{
+				width: 600px;
+				margin: 50px auto;
+			}
+		</style>
+		<script src="./tpl/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				//表单提交事件
+				$('form').submit(function(){
+					//抓多个数据的时候用序列化
+					var d = $(this).serialize();
+					//发异步
+					$.ajax({
+						url:"./index.php?a=add",
+						type:"post",
+						data:d,
+						//指定php返回的数据类型
+						dataType:'json',
+						success:function(phpData){
+							$('#table').append('<tr><td>'+phpData.title+'</td><td>'+phpData.time+'</td><td>修改|删除</td></tr>');
+						}
+					});
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<div id="box">
+			<div class="alert alert-success" role="alert">异步留言板</div>
+			<table class="table table-hover" id="table">
+				<tr><th>标题</th><th>时间</th><th>操作</th></tr>
+				<?php foreach($data as $v): ?>
+					<tr>
+						<td><?php echo $v['title'] ?></td>
+						<td><?php echo $v['time'] ?></td>
+						<td>修改|删除</td>
+					</tr>
+				<?php endforeach ?>
+			</table>
+			<hr />
+			<form action="javascript:void(0);" method="post" >
+				标题：<input type="text" name="title" id="" class="form-control"/>
+				<br />
+				内容：<textarea name="content" id="" cols="30" rows="10" class="form-control"></textarea>
+				<br />
+				<input type="submit" value="添加" class="btn btn-info"/>
+			</form>
+		</div>
+		
+	</body>
+</html>
+
+
+
+
+
+
