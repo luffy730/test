@@ -1,0 +1,56 @@
+[ 2016-05-14T09:02:42+08:00 ]EXCEPTION: 模板不存在:App/Admin/View/Arc/index.php
+[ 2016-05-14T09:46:18+08:00 ]EXCEPTION: SELECT  aid,title,cname  FROM article LIMIT 4,2 ;BindParams:array (
+)42S22;1054;Unknown column 'cname' in 'field list'
+[ 2016-05-14T09:55:21+08:00 ]EXCEPTION: 模板不存在:App/Admin/View/Arc/del.php
+[ 2016-05-14T10:27:49+08:00 ]EXCEPTION: 模板不存在:App/Admin/View/Arc/edit.php
+[ 2016-05-14T10:27:52+08:00 ]EXCEPTION: 模板不存在:App/Admin/View/Arc/edit.php
+[ 2016-05-14T10:28:26+08:00 ]NOTICE: Undefined variable: cateData/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (38).
+[ 2016-05-14T10:28:26+08:00 ]NOTICE: Invalid argument supplied for foreach()/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (38).
+[ 2016-05-14T10:28:26+08:00 ]NOTICE: Undefined variable: tagData/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (51).
+[ 2016-05-14T10:28:26+08:00 ]NOTICE: Invalid argument supplied for foreach()/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (51).
+[ 2016-05-14T10:28:51+08:00 ]NOTICE: Undefined variable: tagData/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (51).
+[ 2016-05-14T10:28:51+08:00 ]NOTICE: Invalid argument supplied for foreach()/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (51).
+[ 2016-05-14T10:52:01+08:00 ]NOTICE: Undefined variable: tids/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (75).
+[ 2016-05-14T10:52:01+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null given/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (75).
+[ 2016-05-14T10:52:01+08:00 ]NOTICE: Undefined variable: tids/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (75).
+[ 2016-05-14T10:52:01+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null given/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (75).
+[ 2016-05-14T10:52:01+08:00 ]NOTICE: Undefined variable: tids/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (75).
+[ 2016-05-14T10:52:01+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null given/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (75).
+[ 2016-05-14T10:52:01+08:00 ]NOTICE: Undefined variable: tids/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (75).
+[ 2016-05-14T10:52:01+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null given/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (75).
+[ 2016-05-14T10:52:01+08:00 ]NOTICE: Undefined variable: tids/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (75).
+[ 2016-05-14T10:52:01+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null given/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (75).
+[ 2016-05-14T10:52:01+08:00 ]NOTICE: Undefined variable: tids/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (75).
+[ 2016-05-14T10:52:01+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null given/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (75).
+[ 2016-05-14T10:52:01+08:00 ]NOTICE: Undefined variable: tids/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (75).
+[ 2016-05-14T10:52:01+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null given/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (75).
+[ 2016-05-14T10:52:01+08:00 ]NOTICE: Undefined variable: tids/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (75).
+[ 2016-05-14T10:52:01+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null given/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (75).
+[ 2016-05-14T10:52:01+08:00 ]NOTICE: Undefined variable: tids/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (75).
+[ 2016-05-14T10:52:01+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null given/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (75).
+[ 2016-05-14T10:52:01+08:00 ]NOTICE: Undefined variable: tids/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (75).
+[ 2016-05-14T10:52:01+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null given/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (75).
+[ 2016-05-14T10:57:16+08:00 ]NOTICE: Undefined index: thumb/www/c65/blog/blog/App/Admin/Model/Arc.php (35).
+[ 2016-05-14T11:13:26+08:00 ]NOTICE: Undefined index: thumb/www/c65/blog/blog/App/Admin/Model/Arc.php (35).
+[ 2016-05-14T11:13:29+08:00 ]NOTICE: Undefined index: thumb/www/c65/blog/blog/App/Admin/Model/Arc.php (35).
+[ 2016-05-14T11:13:37+08:00 ]NOTICE: Undefined index: thumb/www/c65/blog/blog/App/Admin/Model/Arc.php (35).
+[ 2016-05-14T11:25:39+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null given/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (76).
+[ 2016-05-14T11:25:39+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null given/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (76).
+[ 2016-05-14T11:25:39+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null given/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (76).
+[ 2016-05-14T11:25:39+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null given/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (76).
+[ 2016-05-14T11:25:39+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null given/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (76).
+[ 2016-05-14T11:25:39+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null given/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (76).
+[ 2016-05-14T11:25:39+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null given/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (76).
+[ 2016-05-14T11:25:39+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null given/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (76).
+[ 2016-05-14T11:25:39+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null given/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (76).
+[ 2016-05-14T11:25:39+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null given/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (76).
+[ 2016-05-14T11:26:15+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null given/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (76).
+[ 2016-05-14T11:26:15+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null given/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (76).
+[ 2016-05-14T11:26:15+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null given/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (76).
+[ 2016-05-14T11:26:15+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null given/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (76).
+[ 2016-05-14T11:26:15+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null given/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (76).
+[ 2016-05-14T11:26:15+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null given/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (76).
+[ 2016-05-14T11:26:15+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null given/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (76).
+[ 2016-05-14T11:26:15+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null given/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (76).
+[ 2016-05-14T11:26:15+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null given/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (76).
+[ 2016-05-14T11:26:15+08:00 ]NOTICE: in_array() expects parameter 2 to be array, null given/www/c65/blog/blog/Storage/view/compile/2b059842649e4d4969b063e856fa33e1.php (76).

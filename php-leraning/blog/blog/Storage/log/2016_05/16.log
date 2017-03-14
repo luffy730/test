@@ -1,0 +1,31 @@
+[ 2016-05-16T09:03:51+08:00 ]EXCEPTION: 模板不存在:App/Admin/View/WebSet/index.php
+[ 2016-05-16T09:03:54+08:00 ]EXCEPTION: 模板不存在:App/Admin/View/WebSet/index.php
+[ 2016-05-16T03:50:41+02:00 ]NOTICE: session_start(): Cannot send session cookie - headers already sent by (output started at /www/c65/blog/blog/Config/self.php:1)/www/c65/blog/blog/Hdphp/Session/File.php (17).
+[ 2016-05-16T03:50:41+02:00 ]NOTICE: session_start(): Cannot send session cache limiter - headers already sent (output started at /www/c65/blog/blog/Config/self.php:1)/www/c65/blog/blog/Hdphp/Session/File.php (17).
+[ 2016-05-16T03:50:41+02:00 ]NOTICE: Cannot modify header information - headers already sent by (output started at /www/c65/blog/blog/Config/self.php:1)/www/c65/blog/blog/Hdphp/Session/File.php (21).
+[ 2016-05-16T03:50:41+02:00 ]NOTICE: Cannot modify header information - headers already sent by (output started at /www/c65/blog/blog/Config/self.php:1)/www/c65/blog/blog/Hdphp/Kernel/Kernel.php (12).
+[ 2016-05-16T10:04:17+08:00 ]EXCEPTION: SELECT  *  FROM category WHERE pid=0 ORDER BY  csort ASC ASC  ;BindParams:array (
+)42000;1064;You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC' at line 1
+[ 2016-05-16T10:38:36+08:00 ]EXCEPTION: 模板不存在:App/Home/View/Index/../Common/head.php.php
+[ 2016-05-16T10:38:43+08:00 ]NOTICE: Undefined variable: cateData/www/c65/blog/blog/Storage/view/compile/6b525946d8170654f945fdfb52b21038.php (40).
+[ 2016-05-16T10:38:43+08:00 ]NOTICE: Invalid argument supplied for foreach()/www/c65/blog/blog/Storage/view/compile/6b525946d8170654f945fdfb52b21038.php (40).
+[ 2016-05-16T11:15:35+08:00 ]NOTICE: Undefined variable: count/www/c65/blog/blog/App/Home/Controller/ListController.php (26).
+[ 2016-05-16T11:15:53+08:00 ]NOTICE: Undefined variable: count/www/c65/blog/blog/App/Home/Controller/ListController.php (26).
+[ 2016-05-16T11:19:22+08:00 ]NOTICE: Undefined variable: count/www/c65/blog/blog/App/Home/Controller/ListController.php (36).
+[ 2016-05-16T11:25:00+08:00 ]NOTICE: Undefined index: cid/www/c65/blog/blog/Storage/view/compile/6b525946d8170654f945fdfb52b21038.php (44).
+[ 2016-05-16T11:25:00+08:00 ]NOTICE: Undefined index: cid/www/c65/blog/blog/Storage/view/compile/6b525946d8170654f945fdfb52b21038.php (44).
+[ 2016-05-16T11:25:00+08:00 ]NOTICE: Undefined index: cid/www/c65/blog/blog/Storage/view/compile/6b525946d8170654f945fdfb52b21038.php (44).
+[ 2016-05-16T11:27:57+08:00 ]NOTICE: Undefined index: cid/www/c65/blog/blog/Storage/view/compile/6b525946d8170654f945fdfb52b21038.php (46).
+[ 2016-05-16T11:27:57+08:00 ]NOTICE: Undefined index: cid/www/c65/blog/blog/Storage/view/compile/6b525946d8170654f945fdfb52b21038.php (46).
+[ 2016-05-16T11:27:57+08:00 ]NOTICE: Undefined index: cid/www/c65/blog/blog/Storage/view/compile/6b525946d8170654f945fdfb52b21038.php (46).
+[ 2016-05-16T11:36:06+08:00 ]NOTICE: Undefined variable: data/www/c65/blog/blog/App/Home/Controller/ListController.php (50).
+[ 2016-05-16T11:36:06+08:00 ]NOTICE: Invalid argument supplied for foreach()/www/c65/blog/blog/Storage/view/compile/9c5abaaa6f02cf73c9209d43230d6294.php (72).
+[ 2016-05-16T11:39:01+08:00 ]NOTICE: Undefined index: tag/www/c65/blog/blog/Storage/view/compile/9c5abaaa6f02cf73c9209d43230d6294.php (98).
+[ 2016-05-16T11:39:01+08:00 ]NOTICE: Invalid argument supplied for foreach()/www/c65/blog/blog/Storage/view/compile/9c5abaaa6f02cf73c9209d43230d6294.php (98).
+[ 2016-05-16T11:39:01+08:00 ]NOTICE: Undefined index: tag/www/c65/blog/blog/Storage/view/compile/9c5abaaa6f02cf73c9209d43230d6294.php (98).
+[ 2016-05-16T11:39:01+08:00 ]NOTICE: Invalid argument supplied for foreach()/www/c65/blog/blog/Storage/view/compile/9c5abaaa6f02cf73c9209d43230d6294.php (98).
+[ 2016-05-16T11:39:01+08:00 ]NOTICE: Undefined index: tag/www/c65/blog/blog/Storage/view/compile/9c5abaaa6f02cf73c9209d43230d6294.php (98).
+[ 2016-05-16T11:39:01+08:00 ]NOTICE: Invalid argument supplied for foreach()/www/c65/blog/blog/Storage/view/compile/9c5abaaa6f02cf73c9209d43230d6294.php (98).
+[ 2016-05-16T12:02:38+08:00 ]EXCEPTION: 模板不存在:App/Home/View/Content/index.php
+[ 2016-05-16T12:02:42+08:00 ]EXCEPTION: 模板不存在:App/Home/View/Content/index.php
+[ 2016-05-16T12:07:43+08:00 ]NOTICE: Undefined variable: v/www/c65/blog/blog/Storage/view/compile/2285f5ecd290c2ae060f2c24a56dc0d2.php (67).

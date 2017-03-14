@@ -1,0 +1,7 @@
+[ 2016-05-11T10:25:42+08:00 ]EXCEPTION: Method Admin\Controller\IndexController::index.php?m=admin&c=Login() does not exist
+[ 2016-05-11T10:26:05+08:00 ]EXCEPTION: Method Admin\Controller\IndexController::index.php?m=admin&c=Login() does not exist
+[ 2016-05-11T10:26:06+08:00 ]EXCEPTION: Method Admin\Controller\IndexController::index.php?m=admin&c=Login() does not exist
+[ 2016-05-11T10:27:06+08:00 ]EXCEPTION: 模板不存在:App/Admin/View/Login/index.php
+[ 2016-05-11T10:28:45+08:00 ]EXCEPTION: 模板不存在:App/Admin/View/Login/index.php
+[ 2016-05-11T10:41:16+08:00 ]NOTICE: Undefined index: username/www/c65/blog/blog/App/Admin/Controller/LoginController.php (12).
+[ 2016-05-11T12:16:00+08:00 ]NOTICE: Undefined index: username/www/c65/blog/blog/Storage/view/compile/e25935d41d119f684e703fb7d47c9548.php (66).

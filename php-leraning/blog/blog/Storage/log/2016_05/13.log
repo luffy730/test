@@ -1,0 +1,49 @@
+[ 2016-05-13T09:13:29+08:00 ]EXCEPTION: 模板不存在:App/Admin/View/Tag/index.php
+[ 2016-05-13T09:13:34+08:00 ]EXCEPTION: 模板不存在:App/Admin/View/Tag/index.php
+[ 2016-05-13T09:13:49+08:00 ]EXCEPTION: 模板不存在:App/Admin/View/Tag/index.php
+[ 2016-05-13T09:14:17+08:00 ]EXCEPTION: 模板不存在:App/Admin/View/Tag/index.php
+[ 2016-05-13T09:32:20+08:00 ]EXCEPTION: 模板不存在:App/Admin/View/Tag/index.php
+[ 2016-05-13T09:32:52+08:00 ]EXCEPTION: 模板不存在:App/Admin/View/Tag/index.php
+[ 2016-05-13T09:44:31+08:00 ]EXCEPTION: 模板不存在:App/Admin/View/Arc/add.php
+[ 2016-05-13T09:44:32+08:00 ]EXCEPTION: 模板不存在:App/Admin/View/Arc/add.php
+[ 2016-05-13T10:22:02+08:00 ]EXCEPTION: 模板不存在:App/Admin/View/Arc/index.php
+[ 2016-05-13T10:28:29+08:00 ]EXCEPTION: 模板不存在:App/Admin/View/Arc/index.php
+[ 2016-05-13T10:40:49+08:00 ]EXCEPTION: 模板不存在:App/Admin/View/Arc/index.php
+[ 2016-05-13T10:41:39+08:00 ]NOTICE: Undefined offset: 0/www/c65/blog/blog/App/Admin/Model/Arc.php (23).
+[ 2016-05-13T10:41:39+08:00 ]EXCEPTION: INSERT INTO article (`title`,`author`,`category_cid`,`digest`,`sendtime`,`thumb`)VALUES(?,?,?,?,?,?) ;BindParams:array (
+  0 => '123',
+  1 => '123',
+  2 => '',
+  3 => '',
+  4 => 1463107299,
+  5 => NULL,
+)23000;1048;Column 'thumb' cannot be null
+[ 2016-05-13T10:44:51+08:00 ]EXCEPTION: 模板不存在:App/Admin/View/Arc/index.php
+[ 2016-05-13T10:45:09+08:00 ]EXCEPTION: 模板不存在:App/Admin/View/Arc/index.php
+[ 2016-05-13T10:45:57+08:00 ]EXCEPTION: 模板不存在:App/Admin/View/Arc/index.php
+[ 2016-05-13T10:50:32+08:00 ]EXCEPTION: 模板不存在:App/Admin/View/Arc/index.php
+[ 2016-05-13T10:51:39+08:00 ]EXCEPTION: 模板不存在:App/Admin/View/Arc/index.php
+[ 2016-05-13T10:52:23+08:00 ]EXCEPTION: 模板不存在:App/Admin/View/Arc/index.php
+[ 2016-05-13T11:23:30+08:00 ]EXCEPTION: 模板不存在:App/Admin/View/Arc/index.php
+[ 2016-05-13T11:23:39+08:00 ]EXCEPTION: 模板不存在:App/Admin/View/Arc/index.php
+[ 2016-05-13T11:27:39+08:00 ]EXCEPTION: 模板不存在:App/Admin/View/Arc/index.php
+[ 2016-05-13T11:39:29+08:00 ]EXCEPTION: 模板不存在:App/Admin/View/Arc/index.php
+[ 2016-05-13T11:43:23+08:00 ]EXCEPTION: 模板不存在:App/Admin/View/Arc/index.php
+[ 2016-05-13T11:46:15+08:00 ]EXCEPTION: 模板不存在:App/Admin/View/Arc/index.php
+[ 2016-05-13T11:48:30+08:00 ]NOTICE: Array to string conversion/www/c65/blog/blog/Hdphp/Db/Mysql.php (204).
+[ 2016-05-13T11:48:30+08:00 ]EXCEPTION: INSERT INTO article_data (`title`,`author`,`category_cid`,`tid`,`digest`,`keywords`,`des`,`content`,`article_aid`)VALUES(?,?,?,?,?,?,?,?,?) ;BindParams:array (
+  0 => '今天周五',
+  1 => '今天周五',
+  2 => '',
+  3 => 
+  array (
+    0 => '11',
+  ),
+  4 => '今天周五',
+  5 => '今天周五',
+  6 => '今天周五',
+  7 => '今天周五',
+  8 => '1',
+)42S22;1054;Unknown column 'title' in 'field list'
+[ 2016-05-13T11:49:59+08:00 ]EXCEPTION: 模板不存在:App/Admin/View/Arc/index.php
+[ 2016-05-13T11:52:14+08:00 ]EXCEPTION: 模板不存在:App/Admin/View/Arc/index.php
