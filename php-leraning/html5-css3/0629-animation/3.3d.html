@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			body{
+				perspective: 800px;
+			}
+			#box{
+				width: 300px;
+				height: 300px;
+				border: 1px solid red;
+				margin-left: 230px;
+				margin-top: 100px;
+				position: relative;
+				animation: hd 10s infinite linear;
+				transform-style: preserve-3d;
+				background: yellow;
+			}
+			@-webkit-keyframes hd{
+				from{
+					transform: rotateY(0deg);
+				}
+				to{
+					transform: rotateY(360deg);
+				}
+			}
+			#box p{
+				width: 100px;
+				height: 100px;
+				background: darkblue;
+				position: absolute;
+				left: 100px;
+				top: 100px;
+				transform: rotateX(80deg);
+				transform-style: preserve-3d;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="box">
+			<p></p>
+		</div>
+	</body>
+</html>

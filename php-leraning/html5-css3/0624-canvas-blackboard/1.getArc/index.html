@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="jquery-1.8.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				$('#read').click(function(){
+					//如果sessionStorage里面有数据就不发异步了
+					var data = window.sessionStorage.getItem('data');
+					if(data){
+						data = JSON.parse(data);
+						content(data);
+						return;
+					}
+					//发异步
+					$.ajax({
+						type:"post",
+						url:"./get.php",
+						dataType:'json',
+						success:function(phpData){
+							content(phpData);
+							//存入sessionStorage
+							var data = JSON.stringify(phpData);
+							window.sessionStorage.setItem('data',data);
+						}
+					});
+				})
+			})
+			/**
+			 * 组合tr字符串插入到table里面
+			 * @param {json} data
+			 */
+			function content(data){
+				var str = '<tr><td>ID</td><td>标题</td></tr>';
+				$.each(data, function(k,v) {    
+					str += '<tr><td>'+v.id+'</td><td>'+v.title+'</td></tr>'                                                         
+				});
+				$('#table').html(str);
+				
+			}
+		</script>
+	</head>
+	<body>
+		<a href="javascript:;" id="read">读取更多文章..</a>
+		<table border="1" id="table">
+			
+			
+		</table>
+	</body>
+</html>

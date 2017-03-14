@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+	</head>
+	<body>
+		<header class="mui-bar mui-bar-nav">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <h1 class="mui-title">注册</h1>
+		</header>
+		<div class="mui-content">
+		    <form class="mui-input-group">
+		        <div class="mui-input-row">
+		            <label>账号：</label>
+		            <input type="text" class="mui-input-clear" placeholder="请输入账号" id="account">
+		        </div>
+		        <div class="mui-input-row">
+		            <label>密码：</label>
+		            <input type="password" class="mui-input-clear" placeholder="请输入密码" id="password">
+		        </div>
+		        <div class="mui-input-row">
+		            <label>确认：</label>
+		            <input type="password" class="mui-input-clear" placeholder="请再次输入密码" id="confirm">
+		        </div>
+		        <div class="mui-input-row">
+		            <label>昵称：</label>
+		            <input type="text" class="mui-input-clear" placeholder="请输入昵称" id="nickname">
+		        </div>
+		    </form>
+		    <div class="mui-content-padded">
+		        <button type="button" class="mui-btn mui-btn-blue mui-btn-block" style="height: 30px;line-height: 0;" id="reg">注册</button>
+		    </div>
+		</div>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+			mui.plusReady(function(){
+				var regButton = document.getElementById("reg");
+				regButton.addEventListener('tap',function(){
+					var account = document.getElementById("account");
+					if(account.value.length == 0){
+						plus.ui.toast('账号不能为空');
+						return;
+					}
+					var password = document.getElementById("password");
+					var nickname = document.getElementById("nickname");
+					//异步注册
+					mui.ajax('http://api.jiunixing.com/appNews/index.php?c=Account&a=reg',{
+						data:{
+							account:account.value,
+							password:password.value,
+							nickname:nickname.value
+						},
+						type:'post',
+						dataType:'json',
+						timeout:10000,
+						success:function(phpdata){
+							plus.ui.toast(phpdata.msg);
+							//注册成功
+							if(phpdata.status == 1){
+								mui.back();
+							}
+							
+						},
+						error:function(){
+							
+						}
+					});
+				})
+			})
+		</script>
+	</body>
+
+</html>

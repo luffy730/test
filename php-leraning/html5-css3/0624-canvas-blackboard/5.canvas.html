@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			#canvas{
+				border: 1px solid red;
+			}
+		</style>
+	</head>
+	<body>
+		<canvas id="canvas" width="500" height="500"></canvas>
+		<script type="text/javascript">
+			var ctx = document.getElementById("canvas").getContext('2d');
+			//设置字体
+			ctx.font = '40px Arial';
+			//设置文字对齐方式
+			ctx.textAlign = 'left';
+			//设置基线位置
+			ctx.textBaseline = 'top';
+			//写字了
+			ctx.fillText('A',0,0,20);
+//			ctx.strokeText('A',0,0,20);
+		</script>
+	</body>
+</html>

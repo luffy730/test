@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	<style>
+		html{
+			/*默认为10px,这样1rem就是10px*/
+			font-size: 10px;
+		}
+		/*当屏幕大于300px的时候*/
+		@media only screen and (min-width: 300px){
+			html{
+				font-size: 15px;
+			}
+		}
+		/*当屏幕大于500px的时候*/
+		@media only screen and (min-width: 500px){
+			html{
+				font-size: 20px;
+			}
+		}
+		p{
+			width: 10rem;
+			height: 5rem;
+			background: red;
+			font-size: 3rem;
+			text-align: center;
+			line-height: 5rem;
+			color: white;
+		}
+	</style>
+	</head>
+	<body>
+		<p>按钮</p>
+	</body>
+</html>

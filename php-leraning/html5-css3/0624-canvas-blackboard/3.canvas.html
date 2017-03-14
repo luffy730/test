@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			#canvas{
+				border: 1px solid red;
+			}
+		</style>
+	</head>
+	<body>
+		<canvas id="canvas" width="500" height="500"></canvas>
+		<script type="text/javascript">
+			var ctx = document.getElementById("canvas").getContext('2d');
+			//开始路径
+			ctx.beginPath();
+			//确定起点
+			ctx.moveTo(50,50);
+			//确定终点
+			ctx.lineTo(450,450);
+			//确定第二个终点
+			ctx.lineTo(50,450);
+			//闭合路径
+			ctx.closePath();
+			//设置线条颜色
+			ctx.strokeStyle = 'gold';
+			//划线
+			ctx.stroke();
+		</script>
+	</body>
+</html>

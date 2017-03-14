@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			#box{
+				width: 100px;
+				height: 100px;
+				background: black;
+				transition: width 0.5s;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="box">
+		
+		</div>
+		<script type="text/javascript">
+			var box = document.getElementById("box");
+			box.onclick = function(){
+				//在原有基础上加上50px赋值回去
+				this.style.width = this.offsetWidth + 50 + 'px';
+			}
+			var run = function(){
+				this.style.background = 'red';
+				this.removeEventListener('transitionend',run,false);
+			}
+			//监听动画结束执行某个程序
+			box.addEventListener('transitionend',run,false);
+		</script>
+	</body>
+</html>

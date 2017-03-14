@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.container {
+  max-width: 700px;
+  height: auto;
+  margin: 0 auto;
+}
+header nav #container-fluid {
+  width: 100%;
+  height: 40px;
+  background: darkcyan;
+}
+header nav #container-fluid .nav-box {
+  height: 40px;
+  background: darkgreen;
+}
+header nav #container-fluid .nav-box ul {
+  float: left;
+}
+@media all and (max-width: 500px) {
+  header nav #container-fluid .nav-box ul {
+    display: none;
+  }
+}
+header nav #container-fluid .nav-box ul li {
+  float: left;
+  line-height: 40px;
+  margin-left: 20px;
+}
+header nav #container-fluid .nav-box p {
+  float: right;
+  color: white;
+  line-height: 40px;
+  margin-right: 20px;
+  cursor: pointer;
+  display: none;
+}
+@media all and (max-width: 500px) {
+  header nav #container-fluid .nav-box p {
+    display: block;
+  }
+}
+main .content-box {
+  background: lightblue;
+  height: 500px;
+}
+main .content-box #left {
+  width: 70%;
+  height: 500px;
+  background: darkorange;
+  float: left;
+  border: 5px solid red;
+  box-sizing: border-box;
+}
+@media all and (max-width: 500px) {
+  main .content-box #left {
+    width: 100%;
+  }
+}
+main .content-box #right {
+  width: 30%;
+  height: 500px;
+  background: darkmagenta;
+  float: left;
+  box-sizing: border-box;
+}
+@media all and (max-width: 500px) {
+  main .content-box #right {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=index.css.map */

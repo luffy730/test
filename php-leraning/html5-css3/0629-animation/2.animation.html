@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			#box{
+				width: 100px;
+				height: 100px;
+				animation: hd 1s linear 0s 3 alternate;
+				position: absolute;
+				animation-fill-mode: forwards;
+				
+			}
+			#box:hover{
+				animation-play-state: paused;
+			}
+			@-webkit-keyframes hd{
+				0%{
+					left: 0;
+					transform:scale(1);
+				}
+				100%{
+					left: 100px;
+					transform: scale(0.5);
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div id="box">
+			❤️
+		</div>
+	</body>
+</html>

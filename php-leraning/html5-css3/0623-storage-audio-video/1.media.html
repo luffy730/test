@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+</head>
+<body>
+<video width="350" id="video" poster="poster.jpg">
+	<source src="b.mp4" />
+</video>
+<br />
+<a href="javascript:;" id="click">点击播放</a>
+<a href="javascript:;" id="getCurret">获得当前时间</a>
+<a href="javascript:;" id="setCurrent">设置时间</a>
+<a href="">快进2秒</a>
+<a href="">后退2秒</a>
+
+<script type="text/javascript">
+	//获得video元素
+	var media = document.getElementById("video");
+	//点击播放
+	document.getElementById("click").onclick = function(){
+		media.play();
+	}
+	//点击获得当前的时间
+	document.getElementById("getCurret").onclick = function(){
+		alert(media.currentTime);
+	}
+	//设置当前时间
+	document.getElementById("setCurrent").onclick = function(){
+		media.currentTime = 3;
+	}
+	
+</script>
+
+	
+	
+	
+	
+</body>
+</html>

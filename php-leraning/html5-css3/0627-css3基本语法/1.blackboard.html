@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			#bg{
+				border: 1px solid grey;
+				background: black;
+			}
+		</style>
+		<script src="jquery-1.8.2.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<canvas id="bg" width="500" height="300"></canvas>
+			<a href="javascript:;" id="save">保存 </a>
+			<div id="box">
+				
+			</div>
+		<script type="text/javascript">
+			var blackBoard = function(){
+				//原生对象赋值给变量
+				var hdThis = this;
+				//画布对象
+				hdThis.ctx = document.getElementById("bg").getContext('2d');
+				//1.默认初始化线条颜色宽度等
+				//颜色
+				hdThis.lineColor = 'red';
+				//宽度
+				hdThis.lineWidth = 3;
+				//默认执行的方法
+				hdThis.run = function(){
+					//当鼠标按下的时候
+					//2.鼠标按下触发开始路径，设置线条宽度，线条颜色，设置起点
+					$('#bg').mousedown(function(e){
+						hdThis.ctx.beginPath();
+						hdThis.ctx.strokeStyle = hdThis.lineColor;
+						hdThis.ctx.lineWidth = hdThis.lineWidth;
+						//e.client 获得鼠标距离屏幕左侧的像素
+						//$(this).position().left 获得相对父级元素的偏离像素
+						hdThis.ctx.moveTo(e.clientX - $(this).position().left,e.clientY - $(this).position().top);
+						//在鼠标按下时同时移动的时候，设置终点位置，并且绘制线条
+						$(this).mousemove(function(e){
+							hdThis.ctx.lineTo(e.clientX - $(this).position().left,e.clientY - $(this).position().top);
+							hdThis.ctx.stroke();
+						})
+					})
+					//文档对象鼠标抬起，解除画布的mousemove事件
+					$(document).mouseup(function(){
+						$('#bg').unbind('mousemove');
+					})
+				}
+			}
+			var obj = new blackBoard();
+			obj.run();
+			
+			//保存作品*****************
+			var imgArr = window.sessionStorage.getItem('imgData');
+			if(!imgArr){
+				imgArr = [];
+			}else{
+				imgArr = JSON.parse(imgArr);
+			}
+			//保存作品
+			$('#save').click(function(){
+				var imgData = document.getElementById("bg").toDataURL('image/png');
+				$('#box').append('<img src="' + imgData + '"/>');
+				imgArr.push(imgData);
+				var data = JSON.stringify(imgArr);
+				window.sessionStorage.setItem('imgData',data);
+			})
+			function showImg(){
+				var data = window.sessionStorage.getItem('imgData');
+				data = JSON.parse(data);
+				var str = '';
+				$.each(data, function(k,v) {    
+					 str += '<img src="'+v+'"/>';                                                         
+				});
+				$('#box').html(str);
+			}
+			showImg();
+		</script>
+	</body>
+</html>

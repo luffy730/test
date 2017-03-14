@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	<style type="text/css">
+		#main {
+  width: 300px;
+  height: 100px;
+  border: 1px solid #c3c3c3;
+  display: flex;
+}
+#main div{
+	height: 50px;
+}
+#main div{
+	flex-basis: 200px;
+}
+#main div:nth-child(1){
+	flex-shrink: 1;
+}
+#main div:nth-child(2){
+	flex-shrink: 2;
+	align-self: flex-end;
+}
+#main div:nth-child(3){
+	flex-shrink: 1;
+}
+
+	</style>
+</head>
+<body>
+	<div id="main">
+  <div style="background-color:coral;">a</div>
+  <div style="background-color:lightblue;">b</div>
+  <div style="background-color:khaki;">c</div>
+</div>	
+</body>
+</html>
