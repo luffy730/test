@@ -1,0 +1,285 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/header.css" />
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/footer.css" />
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/list.css" />
+	<script type="text/javascript" src="__PUBLIC__/Js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/Js/common.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/Js/list.js"></script>
+</head>
+<body>
+	<!-- 头部区域 开始 -->
+	<include file="Common:header" />
+	<!-- 头部区域 结束 -->
+
+	<!-- 主体区域 开始 -->
+	<div class="main">
+		<!-- 主体 左侧 开始 -->
+		<div class="left">
+			<!-- 全部搜索结果分类 部分 开始 -->
+			<h2>全部搜索结果分类</h2>
+			<h4><i></i><em>{$cname}</em><span>({$count})</span></h4>
+			<div class="all">
+				<dl>
+					<dt><a href="{:U('/c/4_0')}"><i></i><em>上衣</em><!-- <span>(156528)</span> --></a></dt>
+					<dd>
+						<ul>
+							<foreach name="clos" item="v">
+							<li><a href="{:U('/c/'.$v['cid'].'_0')}"><i></i><em>{$v.cname}</em><span></span></a></li>
+							</foreach>
+						</ul>
+					</dd>
+				</dl>
+				<dl>
+					<dt><a href="{:U('/c/5_0')}"><i></i><em>裤子</em><!-- <span>(11236)</span> --></a></dt>
+					<dd>
+						<ul>
+							<!-- <li><a href="#"><i></i><em>女士牛仔裤</em><span>(5986)</span></a></li>
+							<li><a href="#"><i></i><em>女士牛仔裤</em><span>(5986)</span></a></li>
+							<li><a href="#"><i></i><em>女士牛仔裤</em><span>(5986)</span></a></li>
+							<li><a href="#"><i></i><em>女士牛仔裤</em><span>(5986)</span></a></li>
+							<li><a href="#"><i></i><em>女士牛仔裤</em><span>(5986)</span></a></li>
+							<li><a href="#"><i></i><em>女士牛仔裤</em><span>(5986)</span></a></li> -->
+						</ul>
+					</dd>
+				</dl>
+				<dl>
+					<dt><a href="{:U('/c/6_0')}"><i></i><em>裙子</em><!-- <span>(156528)</span> --></a></dt>
+					<dd>
+						<ul>
+							<!-- <li><a href="#"><i></i><em>半身裙</em><span>(3668)</span></a></li>
+							<li><a href="#"><i></i><em>半身裙</em><span>(3668)</span></a></li>
+							<li><a href="#"><i></i><em>半身裙</em><span>(3668)</span></a></li>
+							<li><a href="#"><i></i><em>半身裙</em><span>(3668)</span></a></li>
+							<li><a href="#"><i></i><em>半身裙</em><span>(3668)</span></a></li>
+							<li><a href="#"><i></i><em>半身裙</em><span>(3668)</span></a></li> -->
+						</ul>
+					</dd>
+				</dl>
+				<dl>
+					<dt><a href="{:U('/c/2_0')}"><i></i><em>特殊服饰</em><!-- <span>(56528)</span> --></a></dt>
+					<dd>
+						<ul>
+							<li><a href="{:U('/c/7_0')}"><i></i><em>套装</em><!-- <span>(168)</span> --></a></li>
+							<li><a href="{:U('/c/8_0')}"><i></i><em>婚纱/礼服</em><!-- <span>(686)</span> --></a></li>
+							<li><a href="{:U('/c/9_0')}"><i></i><em>旗袍</em><!-- <span>(572)</span> --></a></li>
+							<!-- <li><a href="#"><i></i><em>婚纱/旗袍/礼服</em><span>(2668)</span></a></li>
+							<li><a href="#"><i></i><em>婚纱/旗袍/礼服</em><span>(2668)</span></a></li>
+							<li><a href="#"><i></i><em>婚纱/旗袍/礼服</em><span>(2668)</span></a></li> -->
+						</ul>
+					</dd>
+				</dl>
+				<dl>
+					<dt><a href="{:U('/c/3_0')}"><i></i><em>配件</em><!-- <span>(6528)</span> --></a></dt>
+					<dd>
+						<ul>
+							<li><a href="{:U('/c/10_0')}"><i></i><em>帽子</em><!-- <span>(68)</span> --></a></li>
+							<li><a href="{:U('/c/11_0')}"><i></i><em>围巾/丝巾/披肩</em><!-- <span>(163)</span> --></a></li>
+							<li><a href="{:U('/c/12_0')}"><i></i><em>眼镜框架</em><!-- <span>(92)</span> --></a></li>
+							<!-- <li><a href="#"><i></i><em>遮阳丝巾</em><span>(668)</span></a></li>
+							<li><a href="#"><i></i><em>遮阳丝巾</em><span>(668)</span></a></li>
+							<li><a href="#"><i></i><em>遮阳丝巾</em><span>(668)</span></a></li> -->
+						</ul>
+					</dd>
+				</dl>
+			</div>
+			<!-- 全部搜索结果分类 部分 结束 -->
+			<!-- 卖家推荐 区块 开始 -->
+			<div class="recommend">
+				<h2>卖家推荐</h2>
+				<ul>
+					<foreach name="data1" item="v">
+					<li>
+						<a href="{:U('Show/index', array('gid' => $v['gid']))}"><img src="__UPLOADS__/Pic/{$v.pic}" alt="" /></a>
+						<strong>&yen;{$v.shopprice}.00</strong>
+						<p><a href="{:U('Show/index', array('gid' => $v['gid']))}">{$v.gname}</a></p>
+						<span>最近成交{$v.click}件</span>
+					</li>
+					</foreach>
+					<!-- <li>
+						<a href="#"><img src="__PUBLIC__/images/recommend1.jpg" alt="" /></a>
+						<strong>&yen;118</strong>
+						<p><a href="#">2013夏装新款韩版女装修身时尚雪纺裙连衣裙</a></p>
+						<span>最近成交616件</span>
+					</li>
+					<li>
+						<a href="#"><img src="__PUBLIC__/images/recommend1.jpg" alt="" /></a>
+						<strong>&yen;118</strong>
+						<p><a href="#">2013夏装新款韩版女装修身时尚雪纺裙连衣裙</a></p>
+						<span>最近成交616件</span>
+					</li>
+					<li>
+						<a href="#"><img src="__PUBLIC__/images/recommend1.jpg" alt="" /></a>
+						<strong>&yen;118</strong>
+						<p><a href="#">2013夏装新款韩版女装修身时尚雪纺裙连衣裙</a></p>
+						<span>最近成交616件</span>
+					</li> -->
+				</ul>
+			</div>
+			<!-- 卖家推荐 区块 结束 -->
+
+		</div>
+		<!-- 主体 左侧 结束 -->
+		<!-- 主体 右侧 开始 -->
+		<div class="right">
+			<!-- 当前所在位置路径 开始 -->
+			<div class="path">
+				<p>
+					全部
+					<span>></span>
+					<foreach name="path" key="k" item="v">
+					<a href="{:U('/c/'.$k.'_0')}"> {$v}</a>
+					<span>></span>
+					</foreach>
+				</p>
+				<form action="" method="post">
+					<input type="text" value="在当前状态下搜索" name="filter" id="filter" />
+					<input type="submit" value="" id="filter_sub" />
+				</form>
+				<!-- <div>相关产品<strong>23666</strong>件</div> -->
+			</div>
+			<!-- 当前所在位置路径 结束 -->
+			<!-- 属性筛选 区块 开始 -->
+			<div class="attr">
+				<dl class="dl_first">
+					<dt>品牌</dt>
+					<dd>
+						<ul>
+							<li><a href="#" class="cur">不限</a></li>
+							<li><a href="#">HSTYLE/韩都衣舍</a></li>
+							<li><a href="#">PeaceBird太平鸟</a></li>
+							<li><a href="#">100f1/百分之一</a></li>
+							<li><a href="#">淑女屋</a></li>
+							<li><a href="#">秋水伊人</a></li>
+							<li><a href="#">andostore/安都</a></li>
+							<li><a href="#">INMAN/茵曼</a></li>
+							<li><a href="#">Meiligushi/美丽故事</a></li>
+							<li><a href="#">衣香丽影</a></li>
+							<li><a href="#">Season Wind/季候风</a></li>
+						</ul>
+					</dd>
+				</dl>
+
+				<foreach name='attr' key='k' item='v'>
+				<dl>
+					<dt>{$v.name}</dt>
+					<dd>
+						<ul>
+							<?php 
+								$tmp = $filter;
+
+								$tmp[$k] = 0;
+								
+							?>
+							<li><a href="{:U('/c/' . $_GET['cid'] . '_' . implode('_', $tmp))}" <if condition='$filter[$k] eq 0'>class='cur'</if>>不限</a></li>
+
+							<foreach name='v.option' item='s'>
+								<?php 
+									$tmp[$k] = $s['id'];
+								?>
+								<li><a href="{:U('/c/' . $_GET['cid'] . '_' . implode('_', $tmp))}" <if condition='$filter[$k] eq $s["id"]'>class='cur'</if>>{$s.value}</a></li>
+							</foreach>
+							
+						</ul>
+					</dd>
+				</dl>
+				</foreach>
+
+			</div>
+			<!-- 属性筛选 区块 结束 -->
+			<!-- 排序 区块 开始 -->
+			<div class="sort">
+				<p class="sort_by">排序：
+					<a href="#" class="selected" id="default">默认</a>
+					<a href="#" id="sales">销量<i></i></a>
+					<a href="#" id="price">价格<s id="asc"></s><s id="desc"></s></a>
+					<a href="#" id="time">上架时间</a>
+				</p>
+				<p class="show_by">显示方式：
+					<a href="#nolink" class="selected" id="bigpic"><i></i>大图</a>
+					<a href="#nolink" id="list"><i></i>列表</a>
+				</p>
+				<p style="float:right;">总计<strong>{$count}</strong>条记录</p>
+			</div>
+			<!-- 排序 区块 结束 -->
+			<!-- 商品列表 开始 -->
+			<div class="goods_list" id="goods">
+				<if condition="$count eq 0">
+					<p style="font-size:14px;color:#666;padding-left:100px;padding-top:60px;">对不起，没有符合条件的商品！</p>
+				</if>
+				<ul>
+
+					<foreach name='goods' item='v'>
+				
+					<li>
+						<div class="detail">
+							<a href="{:U('/'.$v['gid'])}" class="list_pic"><img src="__UPLOADS__/Pic/{$v.pic}" alt="{$v.gname}" /></a>
+							<p class="price"><span>&yen;{$v.shopprice}.00</span><del>&yen;{$v.marketprice}.00</del></p>
+							<h3><a href="__ROOT__/{$v.gid}">{$v.gname}</a></h3>
+							<p class="offer">销量：102件 | <span class="ship_free">运费：免运费</span></p>
+							<a href="__ROOT__/{$v.gid}" class="buy_btn">
+								<b class="buy_btn_left"></b>
+								<span>点击查看详情</span>
+								<b class="buy_btn_right"></b>
+							</a>
+						</div>
+						<strong></strong>
+						<i></i>
+					</li>
+
+					</foreach>
+					
+				</ul>
+			</div>
+			<!-- 商品列表 结束 -->
+			<!-- 分页 开始 -->
+			<div class="page">{$page}</div>
+			<!-- 分页 结束 -->
+			<!-- 您可能感兴趣的商品 区块 开始 -->
+			<div class="interest">
+				<h3>您可能感兴趣的商品</h3>
+				<ul>
+					<foreach name="data2" item="v">
+					<li>
+						<a href="{:U('Show/index', array('gid' => $v['gid']))}" class="interest_pic"><img src="__UPLOADS__/Pic/{$v.pic}" alt="" /></a>
+						<span>&yen;{$v.shopprice}.00</span>
+						<p><a href="{:U('Show/index', array('gid' => $v['gid']))}">{$v.gname}</a></p>
+					</li>
+					</foreach>
+					<!-- <li>
+						<a href="#" class="interest_pic"><img src="__PUBLIC__/Images/interest1.jpg" alt="" /></a>
+						<span>&yen;165</span>
+						<p><a href="#">2013夏装新品 休闲二件套无袖T恤 修身开衫 </a></p>
+					</li>
+					<li>
+						<a href="#" class="interest_pic"><img src="__PUBLIC__/Images/interest1.jpg" alt="" /></a>
+						<span>&yen;165</span>
+						<p><a href="#">2013夏装新品 休闲二件套无袖T恤 修身开衫 </a></p>
+					</li>
+					<li>
+						<a href="#" class="interest_pic"><img src="__PUBLIC__/Images/interest1.jpg" alt="" /></a>
+						<span>&yen;165</span>
+						<p><a href="#">2013夏装新品 休闲二件套无袖T恤 修身开衫 </a></p>
+					</li>
+					<li>
+						<a href="#" class="interest_pic"><img src="__PUBLIC__/Images/interest1.jpg" alt="" /></a>
+						<span>&yen;165</span>
+						<p><a href="#">2013夏装新品 休闲二件套无袖T恤 修身开衫 </a></p>
+					</li> -->
+				</ul>
+			</div>
+			<!-- 您可能感兴趣的商品 区块 结束 -->
+		</div>
+		<!-- 主体 右侧 结束 -->
+	</div>
+	<!-- 主体区域 结束 -->
+
+	<!-- 页脚 部分 开始 -->
+	<include file="Common:footer" />
+	<!-- 页脚 部分 结束 -->
+
+</body>
+</html>

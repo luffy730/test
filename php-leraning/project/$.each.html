@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript">
+		
+		$(function(){
+			$('.category').change(function() {
+				var tid = 
+				$.ajax({
+					url:'{{U()}}',
+                    type:'post',
+                    dataType:'json',
+                    data:{tid:tid},
+                    success:function(phpdata){
+                    	var str = '';
+                    	//
+                    	// 组合字符串过程
+                    	// 
+                    	$.each(要循环的数据,function(k, v) {
+                    		str += '';
+                    		$.each(v.要循环的数据,function(kk, vv) {
+                    			
+                    		});
+                    	});
+                    	
+                    	// 
+                    	$('#attr').html(str);
+                    }
+				})
+			});
+		})
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

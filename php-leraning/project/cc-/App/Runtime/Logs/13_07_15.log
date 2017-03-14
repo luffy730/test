@@ -1,0 +1,1270 @@
+[ 2013-07-15T00:02:48+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/List
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002033s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002243s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001892s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.043877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044073s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001305s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000971s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000775s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005103s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001203s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001343s ]
+
+[ 2013-07-15T00:08:41+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/List
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001807s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002002s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001316s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034659s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034876s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001257s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000956s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000727s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004490s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001166s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001304s ]
+
+[ 2013-07-15T00:09:25+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/List
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001420s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001639s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001287s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033554s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001503s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000810s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000579s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000952s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004233s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001081s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001228s ]
+
+[ 2013-07-15T00:09:53+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/List
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001611s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001803s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001256s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035752s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001248s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001021s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000735s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004464s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001133s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001271s ]
+
+[ 2013-07-15T00:10:26+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/List
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001618s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001813s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032772s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001257s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001015s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000734s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004476s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001135s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001273s ]
+
+[ 2013-07-15T00:13:05+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/List
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001858s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002071s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034058s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001236s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001004s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000747s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004468s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001133s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001271s ]
+
+[ 2013-07-15T00:14:57+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/List
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001603s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001810s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034321s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001429s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001098s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000812s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005358s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001142s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001280s ]
+
+[ 2013-07-15T00:16:12+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/List
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001383s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001682s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032745s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001528s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000896s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000668s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000949s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004446s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001112s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001264s ]
+
+[ 2013-07-15T00:16:45+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/List
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001668s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001894s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034125s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001246s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000954s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000773s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004435s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001137s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001276s ]
+
+[ 2013-07-15T00:17:39+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/List
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001608s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001925s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001238s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035109s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001249s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001440s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000817s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005002s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001219s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001366s ]
+
+[ 2013-07-15T00:18:12+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/List
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001264s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001457s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032145s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001091s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000874s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000603s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004346s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000988s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001129s ]
+
+[ 2013-07-15T00:21:31+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/List
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001715s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002005s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001271s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035281s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001261s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000960s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000741s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004422s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001505s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001652s ]
+
+[ 2013-07-15T00:21:55+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/List
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001259s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001459s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031733s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001069s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000809s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000584s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003775s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001082s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001219s ]
+
+[ 2013-07-15T00:22:03+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/List
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002303s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002528s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001264s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033326s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001228s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000945s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000733s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004423s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001134s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001272s ]
+
+[ 2013-07-15T00:24:39+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/List
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001643s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001841s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001280s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033029s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001228s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000966s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000742s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004399s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001137s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001275s ]
+
+[ 2013-07-15T00:25:18+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/List
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001590s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001788s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033186s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001393s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000993s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000743s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004675s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001146s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001284s ]
+
+[ 2013-07-15T00:26:25+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/List
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001237s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001428s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031999s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001108s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000931s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000597s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000928s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003951s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000996s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001135s ]
+
+[ 2013-07-15T00:30:48+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/List
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001578s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001769s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001899s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033227s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001240s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000951s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000733s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004424s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001179s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001322s ]
+
+[ 2013-07-15T00:33:38+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/List
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001729s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001933s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032985s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001241s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000950s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000729s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004444s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001232s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001374s ]
+
+[ 2013-07-15T00:34:04+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/List
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001267s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001460s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031608s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001060s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000876s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000616s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000941s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003881s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000981s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001122s ]
+
+[ 2013-07-15T00:35:49+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/List
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001634s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001832s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001691s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032830s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001201s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000940s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000731s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004352s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001140s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001282s ]
+
+[ 2013-07-15T00:36:17+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/List
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001266s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001460s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033288s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001159s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000818s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000644s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001010s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004039s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000993s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001129s ]
+
+[ 2013-07-15T00:36:41+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/List
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001234s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001422s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033321s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001214s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000929s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000611s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000940s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004101s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000999s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001145s ]
+
+[ 2013-07-15T00:38:08+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/List
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001787s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001984s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001603s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035194s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001312s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000938s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000742s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004472s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001339s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001484s ]
+
+[ 2013-07-15T00:39:04+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/List
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001593s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001785s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001261s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033159s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001216s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000938s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000759s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004396s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001132s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001273s ]
+
+[ 2013-07-15T00:41:29+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/List
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002263s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002481s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001329s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035547s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001285s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001002s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000742s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004796s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001146s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001285s ]
+
+[ 2013-07-15T00:41:49+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/List
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001342s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001544s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037631s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001084s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000850s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000581s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000947s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003850s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000990s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001128s ]
+
+[ 2013-07-15T00:43:05+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/List
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003626s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003851s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001210s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036874s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001768s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000878s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000599s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000994s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004653s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001015s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001158s ]
+
+[ 2013-07-15T00:46:31+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/List
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001741s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001941s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001452s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039417s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039616s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001262s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000952s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000740s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004434s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001152s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001291s ]
+
+[ 2013-07-15T00:54:59+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/List
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001823s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003079s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036541s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001302s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001002s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000770s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005079s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001291s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001439s ]
+
+[ 2013-07-15T00:55:19+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/List
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001393s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001601s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032839s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001135s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000826s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000588s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000944s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003887s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001077s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001223s ]
+
+[ 2013-07-15T00:58:28+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/List
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001597s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001805s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001336s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034267s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001321s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000947s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000737s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004494s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001566s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001710s ]
+
+[ 2013-07-15T01:04:35+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001918s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.085050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085251s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002039s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001357s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001379s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006564s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001335s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001486s ]
+
+[ 2013-07-15T01:04:47+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/show
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001689s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001899s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001326s ]
+ERR: 无法加载模块:show
+
+[ 2013-07-15T01:04:53+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/Show
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001237s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001427s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+ERR: 模板不存在[./App/Modules/Index/Tpl/Show/index.html]
+
+[ 2013-07-15T01:05:55+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/Show
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001408s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001622s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012039s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000880s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000908s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000773s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004005s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001364s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001521s ]
+
+[ 2013-07-15T01:25:14+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/Show
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001642s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001842s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001280s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016113s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000941s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002184s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001395s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006558s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001267s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001417s ]
+
+[ 2013-07-15T01:29:49+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/Show
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002012s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002238s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001275s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016303s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001024s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000931s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000746s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004289s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001259s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001408s ]
+
+[ 2013-07-15T01:43:29+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/List
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001967s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002260s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001255s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.058275s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058466s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001289s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000942s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000733s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004447s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001134s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001277s ]
+
+[ 2013-07-15T02:44:29+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/Show
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001700s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001914s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001321s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.049972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050189s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001030s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000960s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000781s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004239s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001168s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001371s ]
+
+[ 2013-07-15T10:12:46+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001454s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.083877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084102s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002548s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001179s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000783s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006183s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001217s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001375s ]
+
+[ 2013-07-15T10:18:24+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001435s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.094813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095024s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001946s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001071s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001018s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005716s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001223s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001378s ]
+
+[ 2013-07-15T10:25:20+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001611s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.057506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057716s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001966s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001187s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000793s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005645s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001213s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001367s ]
+
+[ 2013-07-15T10:28:23+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001453s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.056320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056526s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001903s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001093s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000779s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005463s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001399s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001554s ]
+
+[ 2013-07-15T10:29:45+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001202s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.056789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057003s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001913s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001791s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000936s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006340s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001211s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001363s ]
+
+[ 2013-07-15T10:30:57+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001446s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.059870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060075s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001951s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001080s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000777s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005494s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001191s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001342s ]
+
+[ 2013-07-15T10:31:00+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.055029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055234s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001904s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001208s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000776s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005577s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001211s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001365s ]
+
+[ 2013-07-15T10:31:33+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.056373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056605s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001967s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001131s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000794s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005576s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001235s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001393s ]
+
+[ 2013-07-15T10:34:44+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001591s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.064503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064768s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001794s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000955s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000783s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005313s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001200s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001357s ]
+
+[ 2013-07-15T10:39:48+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001419s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.056702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056908s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001765s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000938s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000650s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004893s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001068s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001224s ]
+
+[ 2013-07-15T10:40:04+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001396s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.057880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058149s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001621s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000855s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000546s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000991s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004470s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001017s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001186s ]
+
+[ 2013-07-15T10:43:35+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001488s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.063938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064137s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001766s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000957s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000678s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005039s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001381s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001532s ]
+
+[ 2013-07-15T10:45:56+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001422s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.064435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064648s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001776s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000952s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000661s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005030s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001070s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001225s ]
+
+[ 2013-07-15T10:48:41+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001469s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.064819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065029s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001780s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001062s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000779s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005288s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001200s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001446s ]
+
+[ 2013-07-15T17:00:49+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003250s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.166678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.166967s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002261s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001037s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000733s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005569s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001136s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001292s ]
+
+[ 2013-07-15T17:39:30+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/List
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001557s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001738s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001319s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.079498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079686s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001203s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000938s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000728s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004351s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001163s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001312s ]
+
+[ 2013-07-15T17:40:20+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/index.php/Show
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001418s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001611s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.040359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040548s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000799s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000762s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000576s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000903s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003434s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001020s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001169s ]
+
+[ 2013-07-15T22:04:32+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/Show
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.015228s ]
+INFO: [ route_check ] --END-- [ RunTime:0.015431s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001307s ]
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\ccshop\svn_ccshop\ThinkPHP\Extend\Driver\Session\SessionDb.class.php 第 129 行.
+NOTIC: [2] mysql_query() expects parameter 2 to be resource, null given E:\wamp\www\ccshop\svn_ccshop\ThinkPHP\Extend\Driver\Session\SessionDb.class.php 第 130 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.074175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074403s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001923s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001227s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000910s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005891s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001456s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001630s ]
+
+[ 2013-07-15T22:04:40+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/List
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001278s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001458s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\ccshop\svn_ccshop\ThinkPHP\Extend\Driver\Session\SessionDb.class.php 第 129 行.
+NOTIC: [2] mysql_query() expects parameter 2 to be resource, null given E:\wamp\www\ccshop\svn_ccshop\ThinkPHP\Extend\Driver\Session\SessionDb.class.php 第 130 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.050889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051085s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001107s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000797s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000607s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000950s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003854s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001015s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001160s ]
+
+[ 2013-07-15T22:04:55+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001729s ]
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\ccshop\svn_ccshop\ThinkPHP\Extend\Driver\Session\SessionDb.class.php 第 129 行.
+NOTIC: [2] mysql_query() expects parameter 2 to be resource, null given E:\wamp\www\ccshop\svn_ccshop\ThinkPHP\Extend\Driver\Session\SessionDb.class.php 第 130 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.079156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079355s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001877s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001160s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000768s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005536s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001271s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001415s ]
+
+[ 2013-07-15T23:33:51+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003821s ]
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\ccshop\svn_ccshop\ThinkPHP\Extend\Driver\Session\SessionDb.class.php 第 129 行.
+NOTIC: [2] mysql_query() expects parameter 2 to be resource, null given E:\wamp\www\ccshop\svn_ccshop\ThinkPHP\Extend\Driver\Session\SessionDb.class.php 第 130 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.059201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059393s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001966s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001209s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000802s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005726s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001175s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001314s ]
+
+[ 2013-07-15T23:33:56+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001467s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001656s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001187s ]
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\ccshop\svn_ccshop\ThinkPHP\Extend\Driver\Session\SessionDb.class.php 第 129 行.
+NOTIC: [2] mysql_query() expects parameter 2 to be resource, null given E:\wamp\www\ccshop\svn_ccshop\ThinkPHP\Extend\Driver\Session\SessionDb.class.php 第 130 行.
+
+[ 2013-07-15T23:33:56+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/admin/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001249s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001426s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\ccshop\svn_ccshop\ThinkPHP\Extend\Driver\Session\SessionDb.class.php 第 129 行.
+NOTIC: [2] mysql_query() expects parameter 2 to be resource, null given E:\wamp\www\ccshop\svn_ccshop\ThinkPHP\Extend\Driver\Session\SessionDb.class.php 第 130 行.
+
+[ 2013-07-15T23:35:07+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/admin/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001608s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001834s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001178s ]
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\ccshop\svn_ccshop\ThinkPHP\Extend\Driver\Session\SessionDb.class.php 第 129 行.
+NOTIC: [2] mysql_query() expects parameter 2 to be resource, null given E:\wamp\www\ccshop\svn_ccshop\ThinkPHP\Extend\Driver\Session\SessionDb.class.php 第 130 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012762s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001050s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000808s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000641s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000909s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003806s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001031s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001171s ]
+
+[ 2013-07-15T23:35:07+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/admin/Login/__STATIC__/Css/login.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002240s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002441s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001422s ]
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\ccshop\svn_ccshop\ThinkPHP\Extend\Driver\Session\SessionDb.class.php 第 129 行.
+NOTIC: [2] mysql_query() expects parameter 2 to be resource, null given E:\wamp\www\ccshop\svn_ccshop\ThinkPHP\Extend\Driver\Session\SessionDb.class.php 第 130 行.
+ERR: 非法操作:__STATIC__
+
+[ 2013-07-15T23:35:07+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/admin/Login/__STATIC__/Js/login.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001843s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002072s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\ccshop\svn_ccshop\ThinkPHP\Extend\Driver\Session\SessionDb.class.php 第 129 行.
+NOTIC: [2] mysql_query() expects parameter 2 to be resource, null given E:\wamp\www\ccshop\svn_ccshop\ThinkPHP\Extend\Driver\Session\SessionDb.class.php 第 130 行.
+ERR: 非法操作:__STATIC__
+
+[ 2013-07-15T23:35:07+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/admin/Login/%7B|U(%27Login/verify%27)%7D
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001611s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001790s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001268s ]
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\ccshop\svn_ccshop\ThinkPHP\Extend\Driver\Session\SessionDb.class.php 第 129 行.
+NOTIC: [2] mysql_query() expects parameter 2 to be resource, null given E:\wamp\www\ccshop\svn_ccshop\ThinkPHP\Extend\Driver\Session\SessionDb.class.php 第 130 行.
+ERR: 非法操作:{|U('Login
+
+[ 2013-07-15T23:35:07+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/admin/Login/%7B|U(%27Login/verify%27)%7D
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001704s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001230s ]
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\ccshop\svn_ccshop\ThinkPHP\Extend\Driver\Session\SessionDb.class.php 第 129 行.
+NOTIC: [2] mysql_query() expects parameter 2 to be resource, null given E:\wamp\www\ccshop\svn_ccshop\ThinkPHP\Extend\Driver\Session\SessionDb.class.php 第 130 行.
+ERR: 非法操作:{|U('Login
+
+[ 2013-07-15T23:44:51+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/admin/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001635s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001851s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001271s ]
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\ccshop\svn_ccshop\ThinkPHP\Extend\Driver\Session\SessionDb.class.php 第 129 行.
+NOTIC: [2] mysql_query() expects parameter 2 to be resource, null given E:\wamp\www\ccshop\svn_ccshop\ThinkPHP\Extend\Driver\Session\SessionDb.class.php 第 130 行.
+
+[ 2013-07-15T23:46:50+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/admin/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001250s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001430s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\ccshop\svn_ccshop\ThinkPHP\Extend\Driver\Session\SessionDb.class.php 第 129 行.
+NOTIC: [2] mysql_query() expects parameter 2 to be resource, null given E:\wamp\www\ccshop\svn_ccshop\ThinkPHP\Extend\Driver\Session\SessionDb.class.php 第 130 行.
+NOTIC: [8] Use of undefined constant CONTROL - assumed 'CONTROL' E:\wamp\www\ccshop\svn_ccshop\App\Modules\Admin\Action\LoginAction.class.php 第 10 行.
+
+[ 2013-07-15T23:47:01+08:00 ] 127.0.0.1 /ccshop/svn_ccshop/admin/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001664s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001849s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001298s ]
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\ccshop\svn_ccshop\ThinkPHP\Extend\Driver\Session\SessionDb.class.php 第 129 行.
+NOTIC: [2] mysql_query() expects parameter 2 to be resource, null given E:\wamp\www\ccshop\svn_ccshop\ThinkPHP\Extend\Driver\Session\SessionDb.class.php 第 130 行.
+NOTIC: [8] Use of undefined constant __CONTROL__ - assumed '__CONTROL__' E:\wamp\www\ccshop\svn_ccshop\App\Modules\Admin\Action\LoginAction.class.php 第 10 行.
+

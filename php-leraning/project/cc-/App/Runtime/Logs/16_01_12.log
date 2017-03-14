@@ -1,0 +1,855 @@
+[ 2016-01-12T09:18:56+08:00 ] 0.0.0.0 /cc-/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003738s ]
+NOTIC: [2] mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) /www/cc-/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+ERR: Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2016-01-12T09:19:09+08:00 ] 0.0.0.0 /cc-/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+SQL: SHOW COLUMNS FROM `ccshop_goods` [ RunTime:0.011290s ]
+SQL: SELECT `gid`,`gname`,`pic`,`click`,`shopprice` FROM `ccshop_goods` WHERE ( `cid` = 13 ) ORDER BY rand() LIMIT 10   [ RunTime:0.008283s ]
+SQL: SELECT `gid`,`gname`,`pic`,`click`,`shopprice` FROM `ccshop_goods` WHERE ( `cid` = 13 ) ORDER BY rand() LIMIT 10   [ RunTime:0.000535s ]
+SQL: SELECT `gid`,`gname`,`pic`,`click`,`shopprice` FROM `ccshop_goods` WHERE ( `cid` = 13 ) ORDER BY rand() LIMIT 10   [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `ccshop_category` [ RunTime:0.002794s ]
+SQL: SELECT `cid`,`cname` FROM `ccshop_category` WHERE ( `pid` = 4 )  [ RunTime:0.000766s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.104790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104903s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001308s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000718s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000649s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000845s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003764s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001113s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001202s ]
+
+[ 2016-01-12T09:19:12+08:00 ] 0.0.0.0 /cc-/admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001810s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002005s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: welcome /www/cc-/App/Runtime/Cache/admin/3337b40a3a45144ee3de62bbd03526a6.php 第 14 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012908s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001077s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000679s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000219s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002708s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000479s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2016-01-12T09:19:12+08:00 ] 0.0.0.0 /cc-/admin/Index/info.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000784s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+NOTIC: [2] mysql_get_server_info(): Can't connect to local MySQL server through socket '/Applications/MAMP/tmp/mysql/mysql.sock' (2) /www/cc-/App/Modules/admin/Action/IndexAction.class.php 第 43 行.
+NOTIC: [2] mysql_get_server_info(): A link to the server could not be established /www/cc-/App/Modules/admin/Action/IndexAction.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009781s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000320s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000336s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000175s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001368s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000531s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2016-01-12T09:19:14+08:00 ] 0.0.0.0 /cc-/admin/Goods/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000713s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `ccshop_goods` [ RunTime:0.001340s ]
+SQL: SELECT `gid`,`gname`,`gnumber`,`unit`,`marketprice`,`shopprice`,`click`,`time`,`tid` FROM `ccshop_goods`  [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `ccshop_goods_list` [ RunTime:0.003010s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 1 )  [ RunTime:0.001030s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 2 )  [ RunTime:0.000248s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 3 )  [ RunTime:0.000243s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 4 )  [ RunTime:0.000332s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 5 )  [ RunTime:0.000280s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 6 )  [ RunTime:0.000409s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 7 )  [ RunTime:0.000308s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 8 )  [ RunTime:0.000273s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 9 )  [ RunTime:0.000228s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 10 )  [ RunTime:0.000236s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 11 )  [ RunTime:0.000194s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 12 )  [ RunTime:0.000256s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 13 )  [ RunTime:0.000187s ]
+NOTIC: [2] Invalid argument supplied for foreach() /www/cc-/App/Modules/admin/Action/GoodsAction.class.php 第 17 行.
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 14 )  [ RunTime:0.000200s ]
+NOTIC: [2] Invalid argument supplied for foreach() /www/cc-/App/Modules/admin/Action/GoodsAction.class.php 第 17 行.
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 15 )  [ RunTime:0.000205s ]
+NOTIC: [2] Invalid argument supplied for foreach() /www/cc-/App/Modules/admin/Action/GoodsAction.class.php 第 17 行.
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 16 )  [ RunTime:0.000205s ]
+NOTIC: [2] Invalid argument supplied for foreach() /www/cc-/App/Modules/admin/Action/GoodsAction.class.php 第 17 行.
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 17 )  [ RunTime:0.000233s ]
+NOTIC: [2] Invalid argument supplied for foreach() /www/cc-/App/Modules/admin/Action/GoodsAction.class.php 第 17 行.
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 18 )  [ RunTime:0.000238s ]
+NOTIC: [2] Invalid argument supplied for foreach() /www/cc-/App/Modules/admin/Action/GoodsAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014395s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000428s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000299s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000163s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001413s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000733s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000868s ]
+
+[ 2016-01-12T09:19:17+08:00 ] 0.0.0.0 /cc-/admin/Type/add.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000670s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006694s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000280s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000250s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000140s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001139s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000451s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2016-01-12T09:19:19+08:00 ] 0.0.0.0 /cc-/admin/Type/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000640s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `ccshop_type` [ RunTime:0.002539s ]
+SQL: SELECT * FROM `ccshop_type`  [ RunTime:0.001158s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010217s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000286s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000253s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000139s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001282s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000510s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000575s ]
+
+[ 2016-01-12T09:19:39+08:00 ] 0.0.0.0 /cc-/admin/TypeAttr/index/tid/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000917s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001138s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `ccshop_type_attr` [ RunTime:0.002619s ]
+SQL: SELECT * FROM `ccshop_type_attr` WHERE ( `tid` = 1 )  [ RunTime:0.002019s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011910s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000323s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000250s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000140s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001190s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000545s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000619s ]
+
+[ 2016-01-12T09:19:45+08:00 ] 0.0.0.0 /cc-/admin/TypeAttr/add/tid/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001029s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001216s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008289s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000291s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000263s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000155s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001213s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000481s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2016-01-12T09:20:53+08:00 ] 0.0.0.0 /cc-/admin/TypeAttr/add/tid/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000765s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `ccshop_type_attr` [ RunTime:0.009453s ]
+SQL: INSERT INTO `ccshop_type_attr` (`taname`,`class`,`tavalue`,`tid`) VALUES ('材质',0,'棉,麻,皮',1) [ RunTime:0.005438s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008711s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000337s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000528s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000237s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001871s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000627s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000702s ]
+
+[ 2016-01-12T09:20:54+08:00 ] 0.0.0.0 /cc-/admin/TypeAttr/index/tid/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000790s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `ccshop_type_attr` [ RunTime:0.009269s ]
+SQL: SELECT * FROM `ccshop_type_attr` WHERE ( `tid` = 1 )  [ RunTime:0.000341s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011810s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000338s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000275s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000153s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001294s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000622s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2016-01-12T09:21:24+08:00 ] 0.0.0.0 /cc-/admin/Type/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001223s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001434s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+SQL: SHOW COLUMNS FROM `ccshop_type` [ RunTime:0.008705s ]
+SQL: SELECT * FROM `ccshop_type`  [ RunTime:0.000450s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013260s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013417s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000563s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000312s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000168s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001562s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000575s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2016-01-12T09:21:27+08:00 ] 0.0.0.0 /cc-/admin/TypeAttr/index/tid/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000650s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `ccshop_type_attr` [ RunTime:0.009121s ]
+SQL: SELECT * FROM `ccshop_type_attr` WHERE ( `tid` = 1 )  [ RunTime:0.000557s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010423s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000296s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000253s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000141s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001163s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000669s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2016-01-12T09:21:30+08:00 ] 0.0.0.0 /cc-/admin/Category/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000652s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+SQL: SHOW COLUMNS FROM `ccshop_category` [ RunTime:0.001124s ]
+SQL: SELECT * FROM `ccshop_category` ORDER BY sort  [ RunTime:0.000581s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015907s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000398s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000296s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000166s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001417s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000635s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2016-01-12T09:21:32+08:00 ] 0.0.0.0 /cc-/admin/Type/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000618s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `ccshop_type` [ RunTime:0.008932s ]
+SQL: SELECT * FROM `ccshop_type`  [ RunTime:0.000251s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011218s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011309s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000305s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000271s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000151s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001340s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000533s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2016-01-12T09:21:35+08:00 ] 0.0.0.0 /cc-/admin/Goods/add.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000687s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `ccshop_category` [ RunTime:0.001277s ]
+SQL: SELECT * FROM `ccshop_category` ORDER BY sort  [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `ccshop_brand` [ RunTime:0.002495s ]
+SQL: SELECT * FROM `ccshop_brand` ORDER BY sort  [ RunTime:0.000606s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011993s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000325s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000265s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000145s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001242s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000561s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000624s ]
+
+[ 2016-01-12T09:21:36+08:00 ] 0.0.0.0 /cc-/admin/Goods/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000663s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `ccshop_goods` [ RunTime:0.001129s ]
+SQL: SELECT `gid`,`gname`,`gnumber`,`unit`,`marketprice`,`shopprice`,`click`,`time`,`tid` FROM `ccshop_goods`  [ RunTime:0.000267s ]
+SQL: SHOW COLUMNS FROM `ccshop_goods_list` [ RunTime:0.000980s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 1 )  [ RunTime:0.000223s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 2 )  [ RunTime:0.000206s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 3 )  [ RunTime:0.000182s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 4 )  [ RunTime:0.000218s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 5 )  [ RunTime:0.000216s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 6 )  [ RunTime:0.000217s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 7 )  [ RunTime:0.000217s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 8 )  [ RunTime:0.000315s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 9 )  [ RunTime:0.000265s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 10 )  [ RunTime:0.000271s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 11 )  [ RunTime:0.000235s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 12 )  [ RunTime:0.000197s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 13 )  [ RunTime:0.000181s ]
+NOTIC: [2] Invalid argument supplied for foreach() /www/cc-/App/Modules/admin/Action/GoodsAction.class.php 第 17 行.
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 14 )  [ RunTime:0.000253s ]
+NOTIC: [2] Invalid argument supplied for foreach() /www/cc-/App/Modules/admin/Action/GoodsAction.class.php 第 17 行.
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 15 )  [ RunTime:0.000340s ]
+NOTIC: [2] Invalid argument supplied for foreach() /www/cc-/App/Modules/admin/Action/GoodsAction.class.php 第 17 行.
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 16 )  [ RunTime:0.000289s ]
+NOTIC: [2] Invalid argument supplied for foreach() /www/cc-/App/Modules/admin/Action/GoodsAction.class.php 第 17 行.
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 17 )  [ RunTime:0.000187s ]
+NOTIC: [2] Invalid argument supplied for foreach() /www/cc-/App/Modules/admin/Action/GoodsAction.class.php 第 17 行.
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 18 )  [ RunTime:0.000236s ]
+NOTIC: [2] Invalid argument supplied for foreach() /www/cc-/App/Modules/admin/Action/GoodsAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013672s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000516s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000304s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000145s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001509s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000717s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000846s ]
+
+[ 2016-01-12T09:21:36+08:00 ] 0.0.0.0 /cc-/admin/Goods/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000894s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000990s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `ccshop_goods` [ RunTime:0.001288s ]
+SQL: SELECT `gid`,`gname`,`gnumber`,`unit`,`marketprice`,`shopprice`,`click`,`time`,`tid` FROM `ccshop_goods`  [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `ccshop_goods_list` [ RunTime:0.001048s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 1 )  [ RunTime:0.000275s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 2 )  [ RunTime:0.000251s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 3 )  [ RunTime:0.000195s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 4 )  [ RunTime:0.000234s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 5 )  [ RunTime:0.000184s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 6 )  [ RunTime:0.000183s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 7 )  [ RunTime:0.000206s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 8 )  [ RunTime:0.000213s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 9 )  [ RunTime:0.000215s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 10 )  [ RunTime:0.000218s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 11 )  [ RunTime:0.000245s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 12 )  [ RunTime:0.000271s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 13 )  [ RunTime:0.000229s ]
+NOTIC: [2] Invalid argument supplied for foreach() /www/cc-/App/Modules/admin/Action/GoodsAction.class.php 第 17 行.
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 14 )  [ RunTime:0.000198s ]
+NOTIC: [2] Invalid argument supplied for foreach() /www/cc-/App/Modules/admin/Action/GoodsAction.class.php 第 17 行.
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 15 )  [ RunTime:0.000272s ]
+NOTIC: [2] Invalid argument supplied for foreach() /www/cc-/App/Modules/admin/Action/GoodsAction.class.php 第 17 行.
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 16 )  [ RunTime:0.000384s ]
+NOTIC: [2] Invalid argument supplied for foreach() /www/cc-/App/Modules/admin/Action/GoodsAction.class.php 第 17 行.
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 17 )  [ RunTime:0.000484s ]
+NOTIC: [2] Invalid argument supplied for foreach() /www/cc-/App/Modules/admin/Action/GoodsAction.class.php 第 17 行.
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 18 )  [ RunTime:0.000487s ]
+NOTIC: [2] Invalid argument supplied for foreach() /www/cc-/App/Modules/admin/Action/GoodsAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013432s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000361s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000340s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000209s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001514s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000666s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000760s ]
+
+[ 2016-01-12T09:21:39+08:00 ] 0.0.0.0 /cc-/admin/Goods/getAttr.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000713s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `ccshop_type_attr` [ RunTime:0.001390s ]
+SQL: SELECT * FROM `ccshop_type_attr` WHERE ( `tid` = 1 )  [ RunTime:0.000852s ]
+
+[ 2016-01-12T09:22:09+08:00 ] 0.0.0.0 /cc-/admin/Category/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001281s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001522s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+SQL: SHOW COLUMNS FROM `ccshop_category` [ RunTime:0.001138s ]
+SQL: SELECT * FROM `ccshop_category` ORDER BY sort  [ RunTime:0.000262s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020838s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000763s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000653s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000596s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000751s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003029s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001183s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001284s ]
+
+[ 2016-01-12T09:22:15+08:00 ] 0.0.0.0 /cc-/admin/Category/add.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001028s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001258s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: type /www/cc-/App/Runtime/Cache/admin/14250a49408d4fcb027399cf57f2bc2f.php 第 17 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018178s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000365s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000610s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000293s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001963s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000654s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2016-01-12T09:22:17+08:00 ] 0.0.0.0 /cc-/admin/Category/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000634s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `ccshop_category` [ RunTime:0.009090s ]
+SQL: SELECT * FROM `ccshop_category` ORDER BY sort  [ RunTime:0.000282s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016903s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000642s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000575s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000178s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001998s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000561s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2016-01-12T09:22:23+08:00 ] 0.0.0.0 /cc-/admin/Category/add.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000704s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: type /www/cc-/App/Runtime/Cache/admin/14250a49408d4fcb027399cf57f2bc2f.php 第 17 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008876s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000275s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000251s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000141s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001124s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000449s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2016-01-12T09:22:24+08:00 ] 0.0.0.0 /cc-/admin/Category/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000858s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+SQL: SHOW COLUMNS FROM `ccshop_category` [ RunTime:0.008862s ]
+SQL: SELECT * FROM `ccshop_category` ORDER BY sort  [ RunTime:0.000382s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017885s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000823s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000296s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000163s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001828s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000695s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000874s ]
+
+[ 2016-01-12T09:22:25+08:00 ] 0.0.0.0 /cc-/admin/Category/add/pid/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000707s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `ccshop_type` [ RunTime:0.009227s ]
+SQL: SELECT * FROM `ccshop_type`  [ RunTime:0.000233s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008978s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000294s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000266s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000151s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001324s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000511s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2016-01-12T09:22:43+08:00 ] 0.0.0.0 /cc-/admin/Category/add.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000680s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: type /www/cc-/App/Runtime/Cache/admin/14250a49408d4fcb027399cf57f2bc2f.php 第 17 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008374s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000412s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000307s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000241s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001823s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000612s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000674s ]
+
+[ 2016-01-12T09:23:02+08:00 ] 0.0.0.0 /cc-/admin/Category/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000637s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+SQL: SHOW COLUMNS FROM `ccshop_category` [ RunTime:0.009423s ]
+SQL: SELECT * FROM `ccshop_category` ORDER BY sort  [ RunTime:0.000270s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018717s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018857s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000686s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000505s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000185s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002016s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000738s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2016-01-12T09:23:02+08:00 ] 0.0.0.0 /cc-/admin/Category/add/pid/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000642s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `ccshop_type` [ RunTime:0.001149s ]
+SQL: SELECT * FROM `ccshop_type`  [ RunTime:0.000263s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007699s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000274s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000249s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000139s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001124s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000512s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2016-01-12T09:23:13+08:00 ] 0.0.0.0 /cc-/admin/Type/add.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000720s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007558s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000263s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000247s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000139s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001106s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000506s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2016-01-12T09:23:14+08:00 ] 0.0.0.0 /cc-/admin/Type/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001020s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `ccshop_type` [ RunTime:0.009250s ]
+SQL: SELECT * FROM `ccshop_type`  [ RunTime:0.000311s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011963s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012057s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000298s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000273s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000142s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001303s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000534s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2016-01-12T09:23:16+08:00 ] 0.0.0.0 /cc-/admin/TypeAttr/index/tid/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001248s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001442s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `ccshop_type_attr` [ RunTime:0.001005s ]
+SQL: SELECT * FROM `ccshop_type_attr` WHERE ( `tid` = 1 )  [ RunTime:0.000426s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011762s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000306s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000460s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000265s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001757s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000745s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000840s ]
+
+[ 2016-01-12T09:23:18+08:00 ] 0.0.0.0 /cc-/admin/TypeAttr/add/tid/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000639s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015407s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000315s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000289s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000169s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001323s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000533s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2016-01-12T09:33:02+08:00 ] 0.0.0.0 /cc-/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `ccshop_goods` [ RunTime:0.001218s ]
+SQL: SELECT `gid`,`gname`,`pic`,`click`,`shopprice` FROM `ccshop_goods` WHERE ( `cid` = 13 ) ORDER BY rand() LIMIT 10   [ RunTime:0.000554s ]
+SQL: SELECT `gid`,`gname`,`pic`,`click`,`shopprice` FROM `ccshop_goods` WHERE ( `cid` = 13 ) ORDER BY rand() LIMIT 10   [ RunTime:0.000405s ]
+SQL: SELECT `gid`,`gname`,`pic`,`click`,`shopprice` FROM `ccshop_goods` WHERE ( `cid` = 13 ) ORDER BY rand() LIMIT 10   [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `ccshop_category` [ RunTime:0.001514s ]
+SQL: SELECT `cid`,`cname` FROM `ccshop_category` WHERE ( `pid` = 4 )  [ RunTime:0.000330s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.103734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103854s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001299s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000630s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000446s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003235s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001032s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001159s ]
+
+[ 2016-01-12T09:33:05+08:00 ] 0.0.0.0 /cc-/admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001689s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001811s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011720s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000278s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000244s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000136s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001108s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000488s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2016-01-12T09:33:05+08:00 ] 0.0.0.0 /cc-/admin/Index/info.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000678s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+NOTIC: [2] mysql_get_server_info(): Can't connect to local MySQL server through socket '/Applications/MAMP/tmp/mysql/mysql.sock' (2) /www/cc-/App/Modules/admin/Action/IndexAction.class.php 第 43 行.
+NOTIC: [2] mysql_get_server_info(): A link to the server could not be established /www/cc-/App/Modules/admin/Action/IndexAction.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008012s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000325s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000277s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000153s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001241s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000456s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2016-01-12T09:33:06+08:00 ] 0.0.0.0 /cc-/admin/Goods/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000778s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+SQL: SHOW COLUMNS FROM `ccshop_goods` [ RunTime:0.001251s ]
+SQL: SELECT `gid`,`gname`,`gnumber`,`unit`,`marketprice`,`shopprice`,`click`,`time`,`tid` FROM `ccshop_goods`  [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `ccshop_goods_list` [ RunTime:0.001053s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 1 )  [ RunTime:0.000457s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 2 )  [ RunTime:0.000222s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 3 )  [ RunTime:0.000199s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 4 )  [ RunTime:0.000218s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 5 )  [ RunTime:0.000213s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 6 )  [ RunTime:0.000217s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 7 )  [ RunTime:0.000212s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 8 )  [ RunTime:0.000220s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 9 )  [ RunTime:0.000237s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 10 )  [ RunTime:0.000204s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 11 )  [ RunTime:0.000192s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 12 )  [ RunTime:0.000165s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 13 )  [ RunTime:0.000155s ]
+NOTIC: [2] Invalid argument supplied for foreach() /www/cc-/App/Modules/admin/Action/GoodsAction.class.php 第 17 行.
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 14 )  [ RunTime:0.000198s ]
+NOTIC: [2] Invalid argument supplied for foreach() /www/cc-/App/Modules/admin/Action/GoodsAction.class.php 第 17 行.
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 15 )  [ RunTime:0.000635s ]
+NOTIC: [2] Invalid argument supplied for foreach() /www/cc-/App/Modules/admin/Action/GoodsAction.class.php 第 17 行.
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 16 )  [ RunTime:0.000306s ]
+NOTIC: [2] Invalid argument supplied for foreach() /www/cc-/App/Modules/admin/Action/GoodsAction.class.php 第 17 行.
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 17 )  [ RunTime:0.000332s ]
+NOTIC: [2] Invalid argument supplied for foreach() /www/cc-/App/Modules/admin/Action/GoodsAction.class.php 第 17 行.
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 18 )  [ RunTime:0.000265s ]
+NOTIC: [2] Invalid argument supplied for foreach() /www/cc-/App/Modules/admin/Action/GoodsAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014463s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000556s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000435s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000252s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002037s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000676s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000752s ]
+

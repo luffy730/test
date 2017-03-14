@@ -1,0 +1,273 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/header.css" />
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/footer.css" />
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/show.css" />
+	<script type="text/javascript" src="__PUBLIC__/Js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/Js/common.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/Js/function.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/Js/show.js"></script>
+	<script type="text/javascript">
+		var url = "{:U('Show/getGoodsList')}";
+		var add_cart_url = "{:U('Show/addCart')}";
+		var more_url = "{:U('Show/more')}";
+		var price = {$goods['shopprice']};
+	</script>
+</head>
+<body>
+	<!-- 头部区域 开始 -->
+	<include file="Common:header" />
+	<!-- 头部区域 结束 -->
+
+	<!-- 主体区域 开始 -->
+	<div class="main">
+		<!-- 当前商品所属类目路径 开始 -->
+		<ul id='location'>
+			<li><a href="__ROOT__">首页</a>&gt;&gt;</li>
+			<foreach name="path" key="k" item="v">
+			<li><a href="{:U('/c/'.$k.'_0')}">{$v}</a>&gt;&gt;</li>
+			</foreach>
+			<li><span>{$goods['gname']}<span></li>
+		</ul>
+		<!-- 当前商品所属类目路径 结束 -->
+		<!-- 商品图片展示、放大镜、商品信息 开始 -->
+		<div id='goods-wrap'>
+			<div class='mini-wrap'>
+				<span id='up'></span>
+				<div id='mini'>
+					<ul>
+						
+						<li class='mini-cur'>
+							<img src="__UPLOADS__/Photo/{$small[0]}" width='100' height='100' alt="" medium='__UPLOADS__/Photo/{$medium[0]}' max='__UPLOADS__/Photo/{$big[0]}'/>
+						</li>
+						
+						<volist name="small" key="k" id="v" offset="1">
+						<li>
+							<img src="__UPLOADS__/Photo/{$v}" width='100' height='100' alt="" medium='__UPLOADS__/Photo/{$medium[$k]}' max='__UPLOADS__/Photo/{$big[$k]}'/>
+						</li>
+						</volist>
+
+					</ul>
+				</div>
+				<span id='down'></span>
+			</div>
+			<div class='zoom'>
+				<div id='medium'>
+					<img src="__UPLOADS__/Photo/{$medium[0]}" width='400' height='400' alt="" />
+					<div id='block'></div>
+					<div id='move'></div>
+				</div>
+				<div id='max'>
+					<img src='__UPLOADS__/Photo/{$big[0]}' width='800' height='800'/>
+				</div>
+			</div>
+
+			<div id='goods-info'>
+				 <ul>
+				 	<li class='name'>{$goods['gname']}</li>
+				 	<li class='brand'>
+				 		<span class='title'>品牌&nbsp;:</span>
+				 		<a href="#"><img src="__UPLOADS__/Logo/{$goods['logo']}" width='70' height='30' alt="" /></a>
+				 	</li>
+				 	<li class='number'>
+				 		<span class='title'>商品货号&nbsp;:</span><b>NO.000001</b>
+				 	</li>
+				 	<li class='market'>
+				 		<span class='title'>市场价&nbsp;:</span><del>&yen;{$goods['marketprice']}</del>
+				 	</li>
+				 	<li class='shop'>
+				 		<span class='title'>商城价&nbsp;:</span><span class='price'>&yen;{$goods['shopprice']}</span></li>
+					<li class='attr'>
+						<div>
+							<dl class="color">
+								<dt>颜色&nbsp;:</dt>
+								<dd>
+									<span class='cur' gtid="{$goods['spec'][0]['option'][0]['gtid']}">{$goods['spec'][0]['option'][0]['gtvalue']}</span>
+									<volist name="goods['spec'][0]['option']" key="k" id="v" offset="1">
+									<span gtid="{$v.gtid}">{$v.gtvalue}</span>
+									</volist>
+								</dd>
+							</dl>
+							<dl class="size">
+								<dt>尺码&nbsp;:</dt>
+								<dd>
+									<span class='cur' gtid="{$goods['spec'][1]['option'][0]['gtid']}">{$goods['spec'][1]['option'][0]['gtvalue']}</span>
+									<volist name="goods['spec'][1]['option']" key="k" id="v" offset="1">
+									<span gtid="{$v.gtid}">{$v.gtvalue}</span>
+									</volist>
+								</dd>
+							</dl>
+							<dl class='hao-num'>
+								<dt>购买数量&nbsp;:</dt>
+								<dd>
+									<input type="text" name='quantity' id="quantity" value='1'/>
+									库存(<span id='inventory'>{$goods['inventory']}</span>)件
+								</dd>
+							</dl>
+							<dl>
+								<dt>提示&nbsp;:</dt>
+								<dd>
+									请选择&nbsp;"颜色"&nbsp;"尺码"，以便查看确切价格和库存
+								</dd>
+							</dl>
+						</div>
+					</li>
+					<li class='buy-btn'>
+						<a href="{:U('Cart/index')}" id='buy'></a>
+						<a id='cart'></a>
+					</li>
+				 </ul>
+			</div>
+		</div>
+		<!-- 商品图片展示、放大镜、商品信息 结束 -->
+		<!-- 同品牌商品推荐 图片角进轮播器 开始 -->
+		<div class="same_brand">
+			<h3>同品牌商品推荐</h3>
+			<div id="box">
+			   	<div id="small">
+			   		<a href="#"><img src="__PUBLIC__/Images/small1.jpg" list="__PUBLIC__/Images/list1.jpg" alt="" /></a>
+			   		<a href="#"><img src="__PUBLIC__/Images/small2.jpg" list="__PUBLIC__/Images/list2.jpg" alt="" /></a>
+			   		<a href="#"><img src="__PUBLIC__/Images/small3.jpg" list="__PUBLIC__/Images/list3.jpg" alt="" /></a>
+			   		<a href="#"><img src="__PUBLIC__/Images/small4.jpg" list="__PUBLIC__/Images/list4.jpg" alt="" /></a>
+			   	</div>
+			   	<div id="big"><a href="#"><img src="" alt="" /></a></div>
+			</div>
+		</div>
+		<!-- 同品牌商品推荐 图片角进轮播器 结束 -->
+
+		<!-- 同类型商品推荐 区块 开始 -->
+		<div class="recommend">
+			<h2>同类型商品推荐</h2>
+			<ul>
+				<foreach name="data1" item="v">
+				<li>
+					<a href="{:U('Show/index', array('gid' => $v['gid']))}"><img src="__UPLOADS__/Pic/{$v.pic}" alt="" /></a>
+					<strong>&yen;{$v.shopprice}</strong>
+					<p><a href="{:U('Show/index', array('gid' => $v['gid']))}">{$v.gname}</a></p>
+					<span>最近成交{$v.click}件</span>
+				</li>
+				</foreach>
+				<!-- <li>
+					<a href="#"><img src="__PUBLIC__/images/recommend1.jpg" alt="" /></a>
+					<strong>&yen;118</strong>
+					<p><a href="#">2013夏装新款韩版女装修身时尚雪纺裙连衣裙</a></p>
+					<span>最近成交616件</span>
+				</li>
+				<li>
+					<a href="#"><img src="__PUBLIC__/images/recommend1.jpg" alt="" /></a>
+					<strong>&yen;118</strong>
+					<p><a href="#">2013夏装新款韩版女装修身时尚雪纺裙连衣裙</a></p>
+					<span>最近成交616件</span>
+				</li>
+				<li>
+					<a href="#"><img src="__PUBLIC__/images/recommend1.jpg" alt="" /></a>
+					<strong>&yen;118</strong>
+					<p><a href="#">2013夏装新款韩版女装修身时尚雪纺裙连衣裙</a></p>
+					<span>最近成交616件</span>
+				</li> -->
+			</ul>
+		</div>
+		<!-- 同类型商品推荐 区块 结束 -->
+
+		<!-- 商品详情 等内容 区块 开始 -->
+		<div class="con">
+			<!-- 导航条 开始 -->
+			<ul class="nav">
+				<li><a href="#para">商品参数</a></li>
+				<li><a href="#detail">商品详情</a></li>
+				<li><a href="#service">售后服务</a></li>
+				<li><a href="#remark">评价详情</a></li>
+				<li><a href="#msg">留言板 / 发表评论</a></li>
+				<a href="#" id="qq"><img src="__PUBLIC__/images/qq.jpg" alt="" /></a>
+			</ul>
+			<!-- 导航条 结束 -->
+			<!-- 属性参数 开始 -->
+			<div id="para">
+				<h3>商品详细参数</h3>
+				<ul>
+					<foreach name="goods['attr']" item="v">
+					<li><span>{$v.name}：</span>{$v.value}</li>
+					</foreach>
+				</ul>
+				<p>属性信息仅供参考，详细情况请qq咨询！</p>
+			</div>
+			<!-- 属性参数 结束 -->
+			<!-- 商品详情 开始 -->
+			<div id="detail">
+				<h3>商品详情</h3>
+				<div>{$goods['intro']}</div>
+			</div>
+			<!-- 商品详情 结束 -->
+			<!-- 售后服务 开始 -->
+			<div id="service">
+				<h3>售后服务</h3>
+				<div>{$goods.service}</div>
+			</div>
+			<!-- 售后服务 结束 -->
+			<!-- 评价详情 开始 -->
+			<div id="remark">
+				<h3>评价详情</h3>
+				<p><span>评价</span><b>评价人</b><i>发表时间</i></p>
+				<ul>
+					<foreach name="remark" item="v">
+					<li><span>{$v.content}</span><b>买家：{$v.uname}</b><i>{$v.time|date="Y-m-d H:s", ###}</i></li>
+					</foreach>
+				</ul>
+				<div class="page">{$page}</div>
+			</div>
+			<!-- 评价详情 结束 -->
+			<!-- 留言板 开始 -->
+			<div id="msg">
+				<h3>留言板</h3>
+				<p>咨询或评论：您还可以输入 <span>120</span> 个字</p>
+				<form action="{:U('remark')}" method="post">
+					<textarea name="content" id="content"></textarea>
+					<input type="hidden" name="gid" value="{$gid}" />
+					<div id="verify_box">
+						<span>请输入验证码：</span>
+						<input type="text" name="verify" id="verify" />
+						<img src="{:U('verify')}" alt="" id="code" />
+					</div>
+					<div>
+						<input type="submit" value="提交" id="sub" />
+						<input type="reset" value="清空" id="reset" />
+					</div>
+				</form>
+			</div>
+			<!-- 留言板 结束 -->
+		</div>
+		<!-- 商品详情 等内容 区块 结束 -->
+
+
+	</div>
+	<!-- 主体区域 结束 -->
+
+	<!-- 页脚 部分 开始 -->
+	<include file="Common:footer" />
+	<!-- 页脚 部分 结束 -->
+
+
+	<!-- 添加到购物车成功 的提示框 开始 -->
+	<div class="success" id="ok">
+		<h4>提示</h4><i></i>
+		<b></b><p>已成功添加到购物车,购物车里已有 <span>1</span> 种商品</p>
+		<input type="button" value="再逛逛" class="quit" />
+		<a href="{:U('Cart/index')}"><input type="button" value="去购物车结算" /></a>
+	</div>
+	<!-- 添加到购物车成功 的提示框 结束 -->
+
+	<!-- 购物车中已经有相同商品 的提示框 开始 -->
+	<div class="success" id="already">
+		<h4>提示</h4><i></i>
+		<b></b><p>购物车中已经有相同商品。您希望：</p>
+		<input type="button" value="不要添加" class="quit" />
+		<input type="button" value="多买一件" id="more" />
+		<a href="{:U('Cart/index')}"><input type="button" value="去购物车结算" /></a>
+	</div>
+	<!-- 购物车中已经有相同商品 的提示框 结束 -->
+
+</body>
+</html>

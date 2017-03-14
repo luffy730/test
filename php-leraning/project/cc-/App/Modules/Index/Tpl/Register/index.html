@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/header.css" />
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/footer.css" />
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/register.css" />
+	<script type="text/javascript" src="__PUBLIC__/Js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/Js/common.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/Js/register.js"></script>
+	<script type="text/javascript">
+		var pub = "__PUBLIC__";
+		var checkUrl = "__ROOT__/Register/";
+	</script>
+</head>
+<body>
+	<!-- 头部区域 开始 -->
+	<include file="Common:header" />
+	<!-- 头部区域 结束 -->
+
+	<!-- 主体区域 开始 -->
+	<div class="main">
+		<!-- 中间注册区域 开始 -->
+		<div id='reg_form'>
+			<em id="regist_word">欢迎注册</em>
+			<strong>填写您的信息：</strong>
+			<p class='have'>我已经注册，现在就去 <a href="{:U('Login/index')}">登录</a></p>
+				<form action="javascript:alert('本演示项目已关闭注册功能！')" method='post' name='register'>
+					<p class='reg_name'><b>*</b>&nbsp;账户名:</p>
+					<input type="text" name='username' class='reg_name_input'/>
+					<span class='name_ts'>4-20个字符（以字母开头、数字、下划线）</span><i class='i_name'></i>
+
+					<p class='reg_pwd'><b>*</b>&nbsp;请设置密码:</p>
+					<input type="password" name='pwd' class='reg_pwd_input'/>
+					<span class='pwd_ts'>6-20位字符，可使用字母、数字或符号的组合</span><i class='i_key'></i>
+
+					<p class='reg_pwded'><b>*</b>&nbsp;请确定密码:</p>
+					<input type="password" name='pwded' class='reg_pwded_input'/>
+					<span class='pwded_ts'>请再次输入密码，两次输入必须一致</span><i class='i_keyed'></i>
+
+					<!-- <input type="checkbox" class='reg_che'/><p class='accept'>我已看过并接受</p><a href="" class='pact'>《用户协议》</a> -->
+
+					<p class='verify'><b>*</b>&nbsp;验证码:</p>
+					<input type="text" name='code' class='verify_input'/>
+					<img src="{:U('Register/verify')}" alt="" id="code" />
+					<span class='verify_ts'>请输入验证码，验证码不区分大小写</span>
+
+					<input type="submit" value='' name="sub" class='sub_btn'/>
+				</form>
+
+				<div id="picshowfz">        
+					<div>
+						<a href="__ROOT__"><img src="__PUBLIC__/Images/reg1.jpg" /></a>
+					</div>
+		      
+		  			<div>
+						<a href="__ROOT__"><img src="__PUBLIC__/Images/reg2.jpg" /></a>
+					</div>
+				</div>
+	
+				
+		</div>
+		<!-- 中间注册区域 结束 -->
+	</div>
+	<!-- 主体区域 结束 -->
+
+	<!-- 页脚 部分 开始 -->
+	<include file="Common:footer" />
+	<!-- 页脚 部分 结束 -->
+</body>
+</html>

@@ -1,0 +1,255 @@
+@charset "utf-8";
+/****************************************************************************/
+/****************  商品详情显示页的css文件  *****************************************/
+/****************************************************************************/
+@import url(common.css);
+
+body{
+	background: #F2F2F2;
+}
+
+/*导航条“首页”处背景 开始*/
+.home_nav_left{
+	background: #463E3E;
+}
+input{
+	border: none;
+}
+/*导航条“首页”处背景 结束*/
+/*主体区域 开始*/
+.main{
+	width: 1225px;
+	height: auto;
+	overflow: hidden;
+	margin: 0px auto 30px;
+}
+
+/*中间注册区域 开始*/
+#reg_form{
+	width: 1215px;
+	height: 570px;
+	margin: 10px auto;
+	background: #fff;
+	position: relative;
+	border:  1px solid #EEEEEE;
+	box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.4);
+}
+#reg_form .have{
+	position: absolute;
+	top: 490px;
+	left: 320px;
+	font-size: 16px;
+	font-family: 'Microsoft YaHei';
+}
+#reg_form .have a{
+	color:#CA0A2A ;
+	font-weight: bold;
+}
+
+#reg_form b{
+	color: #ff0000;
+}
+#reg_form strong{
+	position: absolute;
+	top: 60px;
+	left: 50px;
+	color: black;
+	font-size: 16px;
+}
+#reg_form .reg_name{
+	position: absolute;
+	top: 110px;
+	left: 102px;
+	color: #999;
+	font-size: 14px;
+}
+#reg_form .reg_name_input{
+	width: 238px;
+	height: 16px;
+	padding: 10px 25px 10px 5px;
+	border: 1px #CCCCCC solid;
+	position: absolute;
+	top: 100px;
+	left: 185px;
+	font-family: 'Microsoft YaHei';
+}
+#reg_form .i_name{
+	display: block;
+    width:16px;
+    height: 16px;
+    background: url(../Images/user.jpg) no-repeat;
+    position: absolute;
+    top: 110px;
+    left: 433px;
+
+}
+#reg_form .name_ts{
+	position: absolute;
+	top: 149px;
+	left: 190px;
+}
+#reg_form .error{
+	color: #f00f00;
+}
+#reg_form span{
+	font-family: 'Microsoft YaHei';
+	font-size: 12px;
+	color: #7b7b7b;
+}
+
+#reg_form .reg_pwd{
+	position: absolute;
+	top: 185px;
+	left: 75px;
+	color: #999;
+	font-size: 14px;
+}
+#reg_form .reg_pwd_input{
+	width: 238px;
+	height: 16px;
+	padding: 10px 25px 10px 5px;
+	border: 1px #CCCCCC solid;
+	position: absolute;
+	top: 175px;
+	left: 185px;
+	font-family: 'Microsoft YaHei';
+}
+#reg_form .pwd_ts{
+	position: absolute;
+	top: 223px;
+	left: 190px;
+}
+
+#reg_form .i_key{
+	display: block;
+    width:14px;
+    height: 19px;
+    background: url(../Images/key.jpg) no-repeat;
+    position: absolute;
+    top: 185px;
+    left: 433px;
+}
+#reg_form .reg_pwded{
+	position: absolute;
+	top: 260px;
+	left: 75px;
+	color: #999;
+	font-size: 14px;
+}
+.verify{
+	position: absolute;
+	top: 335px;
+	left: 103px;
+	color: #999;
+	font-size: 14px;
+}
+#reg_form .reg_pwded_input{
+	width: 238px;
+	height: 16px;
+	padding: 10px 25px 10px 5px;
+	border: 1px #CCCCCC solid;
+	position: absolute;
+	top: 250px;
+	left: 185px;
+	font-family: 'Microsoft YaHei';
+}
+.verify_input{
+	width: 120px;
+	height: 16px;
+	padding: 10px 25px 10px 5px;
+	border: 1px #CCCCCC solid;
+	position: absolute;
+	top: 325px;
+	left: 185px;
+	font-family: 'Microsoft YaHei';
+}
+#reg_form .i_keyed{
+	display: block;
+    width:14px;
+    height: 19px;
+    background: url(../Images/key.jpg) no-repeat;
+    position: absolute;
+    top: 260px;
+    left: 433px;
+}
+#reg_form .pwded_ts{
+	position: absolute;
+	top: 298px;
+	left: 190px;
+}
+.verify_ts{
+	position: absolute;
+	top: 373px;
+	left: 190px;
+}
+#code{
+	width: 100px;
+	height: 38px;
+	position: absolute;
+	left: 355px;
+	top: 325px;
+	cursor: pointer;
+}
+
+#reg_form .reg_che{
+	position: absolute;
+	top: 280px;
+	left: 155px;
+}
+#reg_form .accept{
+	position: absolute;
+	top: 280px;
+	left: 180px;
+	font-family: 'Microsoft YaHei';
+	font-size: 16px;
+	color: #393939;
+}
+#reg_form .pact{
+	position: absolute;
+	top: 280px;
+	left: 290px;
+	font-family: 'Microsoft YaHei';
+	font-size: 16px;
+	color: #BF0000;
+	text-decoration: none;
+}
+#reg_form .sub_btn{
+	position: absolute;
+	top: 420px;
+	left: 185px;
+	width: 270px;
+	height: 36px;
+	background: url(../Images/reg_btn.jpg) no-repeat;
+	cursor: pointer;
+}
+#picshowfz{
+	position: absolute;
+	top: 10px;
+	right: 40px;
+}
+#picshowfz div{
+	width: 245px;
+	height: 550px;
+	margin-right: 10px;
+	float: left;
+}
+#picshowfz img{
+	width: 245px;
+	height: 550px;
+	position:relative;
+	box-shadow: 3px 3px 5px #000;
+}
+#regist_word{
+	font-size: 26px;
+	font-style: normal;
+	font-family: '微软雅黑';
+	position: absolute;
+	left: 260px;
+	top: 10px;
+	color: #333;
+}
+/*中间注册区域 结束*/
+
+
+/*主体区域 结束*/
+

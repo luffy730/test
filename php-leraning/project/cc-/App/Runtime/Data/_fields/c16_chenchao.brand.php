@@ -1,0 +1,1 @@
+<?php	return array ( 0 => 'bid', 1 => 'bname', 2 => 'logo', 3 => 'sort', 4 => 'ishot', '_autoinc' => true, '_pk' => 'bid', '_type' => array ( 'bid' => 'int(10) unsigned', 'bname' => 'varchar(20)', 'logo' => 'varchar(60)', 'sort' => 'smallint(6) unsigned', 'ishot' => 'tinyint(1) unsigned', ), );?>

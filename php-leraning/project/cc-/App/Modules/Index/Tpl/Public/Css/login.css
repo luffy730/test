@@ -1,0 +1,208 @@
+@charset "utf-8";
+/****************************************************************************/
+/****************  商品详情显示页的css文件  *****************************************/
+/****************************************************************************/
+@import url(common.css);
+
+body{
+	background: #F2F2F2;
+}
+
+/*导航条“首页”处背景 开始*/
+.home_nav_left{
+	background: #463E3E;
+}
+input{
+	border: none;
+}
+/*导航条“首页”处背景 结束*/
+/*主体区域 开始*/
+.main{
+	width: 1225px;
+	height: auto;
+	overflow: hidden;
+	margin: 0px auto 30px;
+}
+
+/*中间登录区域 开始*/
+#login_form{
+	width: 1215px;
+	height: 424px;
+	margin: 10px auto;
+	background: #fff;
+	border:  1px solid #EEEEEE;
+	box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.4);
+	position: relative;
+}
+#pic_box{
+	position: absolute;
+	top: 10px;
+	left: 50px;
+	width: 404px;
+	height: 404px;
+	border: 1px solid #ccc;
+	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+}
+#small{
+	width: 404px;
+	height: 404px;
+}
+#small img{
+	float: left;
+	margin: 1px;
+	cursor: pointer;
+	position: relative;
+	z-index: 1;
+}
+#big{
+	width: 404px;
+	height: 404px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+#big img{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	cursor: pointer;
+}
+
+#login_form .have{
+	position: absolute;
+	top: 30px;
+	right: 50px;
+	font-size: 16px;
+	font-family: 'Microsoft YaHei';
+}
+#login_form .have a{
+	color:#CA0A2A ;
+	font-weight: bold;
+}
+
+#login_form b{
+	color: #ff0000;
+}
+#login_form strong{
+	position: absolute;
+	top: 40px;
+	left: 20px;
+	color: black;
+}
+#login{
+	position: absolute;
+	top: 30px;
+	left: 600px;
+	width: 400px;
+	height: 240px;
+	position: relative;
+}
+#login h1{
+	font-size: 19px;
+	font-family:'Microsoft YaHei';
+	color: #666;
+	border-bottom: 1px #EFEFEF solid;
+	width: 300px;
+	height: 30px;
+	position: absolute;
+	top: 20px;
+	left: 40px;
+}
+#login .login_form{
+	width:300px;
+	height: auto;
+	position: absolute;
+	top: 60px;
+	left: 40px;
+}
+#login .login_form span{
+	display: block;
+	width: 75px;
+	height: 30px;
+
+}
+#login .login_form input{
+	width: 195px;
+	height: 20px;
+	padding: 5px;
+	background: #F7F7F7;
+	border: 1px #CFCFCF solid;
+}
+#login .login_form .user{
+	position: absolute;
+	top: 15px;
+	left: 0px;
+	font-size: 16px;
+	font-family: 	'Microsoft YaHei';
+}
+#login .login_form .username{
+	position: absolute;
+	top: 10px;
+	right: 20px;
+}
+#login .login_form .loginname{
+	position: absolute;
+	top: 20px;
+	right: -70px;
+	font-size: 12px;
+	color: #f00f00;
+}
+#login .login_form .pw{
+	position: absolute;
+	top: 60px;
+	left: 15px;
+	font-size: 16px;
+	font-family: 'Microsoft YaHei';
+}
+#login .login_form .pwd{
+	position: absolute;
+	top: 55px;
+	right: 20px;
+}
+#login .login_form .loginpwd{
+	position: absolute;
+	top: 70px;
+	right: -70px;
+	font-size: 12px;
+	color: #f00f00;
+}
+#login .login_form .log{
+	width: 200px;
+	height: 36px;
+	background: url(../Images/log.png) no-repeat;
+	position:absolute;
+	top: 140px;
+	left: 73px;
+	border: none;
+	cursor: pointer;
+}
+#login .login_form .save{
+	width: 90px;
+	height: 20px;
+	position:absolute;
+	top: 102px;
+	left: 100px;
+	font-size: 12px;
+}
+#login .login_form .box{
+	position: absolute;
+	top: 100px;
+	left: -15px;
+}
+#login .login_form .to_reg{
+	position: absolute;
+	top: 150px;
+	left: 70px;
+}
+#login .login_form .to_reg a{
+	font-size: 12px;
+	color: #434343;
+}
+#login .login_form .to_reg a:hover{
+	color: #CA0A2A;
+}
+
+/*中间登录区域 结束*/
+
+
+/*主体区域 结束*/

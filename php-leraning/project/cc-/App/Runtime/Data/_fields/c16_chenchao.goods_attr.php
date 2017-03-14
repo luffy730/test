@@ -1,0 +1,1 @@
+<?php	return array ( 0 => 'gtid', 1 => 'gtvalue', 2 => 'added', 3 => 'taid', 4 => 'gid', '_autoinc' => true, '_pk' => 'gtid', '_type' => array ( 'gtid' => 'int(10) unsigned', 'gtvalue' => 'char(15)', 'added' => 'decimal(10,0)', 'taid' => 'int(10) unsigned', 'gid' => 'int(10) unsigned', ), );?>

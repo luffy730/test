@@ -1,0 +1,1 @@
+<?php	return array ( 0 => 'small', 1 => 'medium', 2 => 'big', 3 => 'intro', 4 => 'service', 5 => 'gid', '_autoinc' => false, '_type' => array ( 'small' => 'varchar(255)', 'medium' => 'varchar(255)', 'big' => 'varchar(255)', 'intro' => 'text', 'service' => 'text', 'gid' => 'int(10) unsigned', ), );?>

@@ -1,0 +1,62 @@
+<!-- ie6提示升级浏览器 -->
+<script type="text/javascript">
+	if({$ie6}){
+		alert('您好，你正在使用的浏览器是IE6，本网站的页面在IE6里可能会龙飞凤舞、面目全非，所以请您升级您的浏览器或改用火狐浏览器访问。微软已经将IE浏览器升级到了IE10，您却还在使用IE6，再不升级就OUT了...')
+	}
+</script>
+
+	<!-- 顶部 登录 注册 工具条 开始 -->
+	<div class="toolbar">
+		<div class="toolbar_cont">
+			<ul class="toolbar_quick">
+				<li><a href="#">帮助</a></li>
+				<li><a href="#">网站公告</a></li>
+				<li><a href="{:U('Cart/index')}">购物车</a></li>
+				<li><a href="#">我的账户</a></li>
+				<?php if(isset($_SESSION['userid'])) : ?>
+				<li><a href="{:U('Login/logout')}">退出</a></li>
+				<li><a href=""><?php echo $_SESSION['username'] ?></a></li>
+				<?php else: ?>
+				<li><a href="{:U('Register/index')}">注册</a></li>
+				<li><a href="{:U('Login/index')}">登录</a></li>
+				<?php endif; ?>
+			</ul>
+		</div>
+	</div>
+	<!-- 顶部 登录 注册 工具条 结束 -->
+	<!-- 顶部 广告 开始 -->
+	<div class="header_ad_box">
+		<div class="header_ad">
+			<a href="#"><img src="__PUBLIC__/Images/header_ad.gif" alt="" /></a>
+			<i></i>
+		</div>
+	</div>
+	<!-- 顶部 广告 结束  -->
+	<!-- 头部 logo 搜索框 区块 开始 -->
+	<div class="header">
+		<div class="header_cont">
+			<a href="__ROOT__" class="logo"></a>
+			<a href="__ROOT__" class="sublogo"></a>
+			<form action="" method="get" id="searchForm">
+				<input type="text" id="keyword" name="keyword" value="请输入品牌或商品名称搜索" />
+				<input type="submit" class="search_btn" value="" />
+			</form>
+			<a href="{:U('Cart/index')}" id="shopcart">{$cart_goods_num}</a>
+		</div>
+	</div>
+	<!-- 头部 logo 搜索框 区块 结束 -->
+    
+	<!-- 导航条菜单 开始 -->
+	<div class="home_nav_wrap">
+		<div class="home_nav">
+			<div class="home_nav_left"><a href="__ROOT__">首页</a></div>
+			<ul class="nav_items">
+				<li><a href="{:U('/c/4_0')}">上衣</a></li>
+				<li><a href="{:U('/c/5_0')}">裤子</a></li>
+				<li><a href="{:U('/c/6_0')}">裙子</a></li>
+				<li><a href="{:U('/c/2_0')}">特殊服饰</a></li>
+				<li><a href="{:U('/c/3_0')}">配件</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- 导航条菜单 结束 -->

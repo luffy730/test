@@ -1,0 +1,144 @@
+[ 2016-03-01T09:22:22+08:00 ] 0.0.0.0 /cc-/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004148s ]
+SQL: SHOW COLUMNS FROM `ccshop_goods` [ RunTime:0.013117s ]
+SQL: SELECT `gid`,`gname`,`pic`,`click`,`shopprice` FROM `ccshop_goods` WHERE ( `cid` = 13 ) ORDER BY rand() LIMIT 10   [ RunTime:0.006010s ]
+SQL: SELECT `gid`,`gname`,`pic`,`click`,`shopprice` FROM `ccshop_goods` WHERE ( `cid` = 13 ) ORDER BY rand() LIMIT 10   [ RunTime:0.000507s ]
+SQL: SELECT `gid`,`gname`,`pic`,`click`,`shopprice` FROM `ccshop_goods` WHERE ( `cid` = 13 ) ORDER BY rand() LIMIT 10   [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `ccshop_category` [ RunTime:0.001289s ]
+SQL: SELECT `cid`,`cname` FROM `ccshop_category` WHERE ( `pid` = 4 )  [ RunTime:0.001523s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.126262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.126387s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002090s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000993s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000810s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005428s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001195s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001412s ]
+
+[ 2016-03-01T09:22:29+08:00 ] 0.0.0.0 /cc-/c/13_0.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002990s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003193s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `ccshop_category` [ RunTime:0.001230s ]
+SQL: SELECT `cid`,`pid` FROM `ccshop_category`  [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `ccshop_goods` [ RunTime:0.001231s ]
+SQL: SELECT `gid` FROM `ccshop_goods` WHERE ( `cid` IN (13) )  [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `ccshop_goods_attr` [ RunTime:0.001290s ]
+SQL: SELECT `gtid`,`gtvalue`,`taid` FROM `ccshop_goods_attr` WHERE ( `gid` IN ('1','2','3','4','5','6','7','8','9','10','11','12') ) GROUP BY gtvalue  [ RunTime:0.001207s ]
+SQL: SHOW COLUMNS FROM `ccshop_type_attr` [ RunTime:0.001262s ]
+SQL: SELECT `taname` FROM `ccshop_type_attr` WHERE ( `taid` = 12 ) LIMIT 1   [ RunTime:0.001281s ]
+SQL: SELECT `taname` FROM `ccshop_type_attr` WHERE ( `taid` = 13 ) LIMIT 1   [ RunTime:0.000189s ]
+SQL: SELECT `taname` FROM `ccshop_type_attr` WHERE ( `taid` = 5 ) LIMIT 1   [ RunTime:0.000144s ]
+SQL: SELECT `taname` FROM `ccshop_type_attr` WHERE ( `taid` = 1 ) LIMIT 1   [ RunTime:0.000153s ]
+SQL: SELECT `taname` FROM `ccshop_type_attr` WHERE ( `taid` = 7 ) LIMIT 1   [ RunTime:0.000134s ]
+SQL: SELECT `taname` FROM `ccshop_type_attr` WHERE ( `taid` = 3 ) LIMIT 1   [ RunTime:0.000154s ]
+SQL: SELECT `taname` FROM `ccshop_type_attr` WHERE ( `taid` = 8 ) LIMIT 1   [ RunTime:0.000147s ]
+SQL: SELECT `taname` FROM `ccshop_type_attr` WHERE ( `taid` = 6 ) LIMIT 1   [ RunTime:0.000163s ]
+SQL: SELECT `taname` FROM `ccshop_type_attr` WHERE ( `taid` = 2 ) LIMIT 1   [ RunTime:0.000140s ]
+SQL: SELECT `taname` FROM `ccshop_type_attr` WHERE ( `taid` = 4 ) LIMIT 1   [ RunTime:0.000150s ]
+SQL: SELECT `taname` FROM `ccshop_type_attr` WHERE ( `taid` = 9 ) LIMIT 1   [ RunTime:0.000138s ]
+SQL: SELECT `taname` FROM `ccshop_type_attr` WHERE ( `taid` = 10 ) LIMIT 1   [ RunTime:0.000149s ]
+SQL: SELECT `taname` FROM `ccshop_type_attr` WHERE ( `taid` = 11 ) LIMIT 1   [ RunTime:0.000137s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ccshop_goods` WHERE ( `gid` IN(1,2,3,4,5,6,7,8,9,10,11,12) ) LIMIT 1   [ RunTime:0.000307s ]
+SQL: SELECT `gid`,`gname`,`marketprice`,`shopprice`,`pic` FROM `ccshop_goods` WHERE ( `gid` IN(1,2,3,4,5,6,7,8,9,10,11,12) ) ORDER BY time DESC LIMIT 0,8   [ RunTime:0.000248s ]
+SQL: SELECT `gid`,`gname`,`pic`,`click`,`shopprice` FROM `ccshop_goods` WHERE ( `cid` = 13 ) ORDER BY rand() LIMIT 4   [ RunTime:0.000309s ]
+SQL: SELECT `gid`,`gname`,`pic`,`click`,`shopprice` FROM `ccshop_goods` WHERE ( `cid` = 13 ) ORDER BY rand() LIMIT 5   [ RunTime:0.000680s ]
+SQL: SELECT `cid`,`cname` FROM `ccshop_category` WHERE ( `pid` = 4 )  [ RunTime:0.000280s ]
+SQL: SELECT `cname` FROM `ccshop_category` WHERE ( `cid` = 13 ) LIMIT 1   [ RunTime:0.000164s ]
+SQL: SELECT `pid`,`cname`,`cid` FROM `ccshop_category` WHERE ( `cid` = 13 )  [ RunTime:0.000174s ]
+SQL: SELECT `pid`,`cname`,`cid` FROM `ccshop_category` WHERE ( `cid` = 4 )  [ RunTime:0.000156s ]
+SQL: SELECT `pid`,`cname`,`cid` FROM `ccshop_category` WHERE ( `cid` = 1 )  [ RunTime:0.000211s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030144s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030235s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000595s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000307s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000261s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001914s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000739s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000901s ]
+
+[ 2016-03-01T09:22:33+08:00 ] 0.0.0.0 /cc-/12.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000784s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000944s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `ccshop_goods` [ RunTime:0.001321s ]
+SQL: SHOW COLUMNS FROM `ccshop_detail` [ RunTime:0.001132s ]
+SQL: SHOW COLUMNS FROM `ccshop_brand` [ RunTime:0.001170s ]
+SQL: SELECT goods.gid AS gid,goods.gname AS gname,goods.unit AS unit,goods.marketprice AS marketprice,goods.shopprice AS shopprice,goods.click AS click,goods.time AS time,detail.small AS small,detail.medium AS medium,detail.big AS big,detail.intro AS intro,detail.service AS service,brand.logo AS logo FROM ccshop_goods goods LEFT JOIN ccshop_detail detail ON goods.gid = detail.gid LEFT JOIN ccshop_brand brand ON goods.bid = brand.bid WHERE ( goods.gid = 12 ) LIMIT 1   [ RunTime:0.001458s ]
+SQL: SHOW COLUMNS FROM `ccshop_goods_attr` [ RunTime:0.001192s ]
+SQL: SELECT `gtid`,`gtvalue`,`added`,`taid` FROM `ccshop_goods_attr` WHERE ( `gid` = 12 )  [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `ccshop_type_attr` [ RunTime:0.001089s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 1 ) LIMIT 1   [ RunTime:0.000265s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 2 ) LIMIT 1   [ RunTime:0.000213s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 3 ) LIMIT 1   [ RunTime:0.000171s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 4 ) LIMIT 1   [ RunTime:0.000198s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 5 ) LIMIT 1   [ RunTime:0.000148s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 6 ) LIMIT 1   [ RunTime:0.000144s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 7 ) LIMIT 1   [ RunTime:0.000177s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 8 ) LIMIT 1   [ RunTime:0.000147s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 9 ) LIMIT 1   [ RunTime:0.000175s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 10 ) LIMIT 1   [ RunTime:0.000275s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 11 ) LIMIT 1   [ RunTime:0.000178s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 12 ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 13 ) LIMIT 1   [ RunTime:0.000186s ]
+SQL: SHOW COLUMNS FROM `ccshop_goods_list` [ RunTime:0.001688s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 12 )  [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `ccshop_remark` [ RunTime:0.001173s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ccshop_remark` WHERE ( `gid` = 12 ) LIMIT 1   [ RunTime:0.000273s ]
+SQL: SELECT `content`,`uname`,`time` FROM `ccshop_remark` WHERE ( `gid` = 12 ) ORDER BY time DESC LIMIT 0,5   [ RunTime:0.001761s ]
+SQL: SELECT `cid` FROM `ccshop_goods` WHERE ( `gid` = 12 ) LIMIT 1   [ RunTime:0.000266s ]
+SQL: SHOW COLUMNS FROM `ccshop_category` [ RunTime:0.001179s ]
+SQL: SELECT `pid`,`cname`,`cid` FROM `ccshop_category` WHERE ( `cid` = 13 )  [ RunTime:0.000261s ]
+SQL: SELECT `pid`,`cname`,`cid` FROM `ccshop_category` WHERE ( `cid` = 4 )  [ RunTime:0.000271s ]
+SQL: SELECT `pid`,`cname`,`cid` FROM `ccshop_category` WHERE ( `cid` = 1 )  [ RunTime:0.000196s ]
+SQL: SELECT `gid`,`gname`,`pic`,`click`,`shopprice` FROM `ccshop_goods` WHERE ( `cid` = 13 ) ORDER BY rand() LIMIT 10   [ RunTime:0.000353s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028917s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000404s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000315s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000174s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001473s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000889s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001033s ]
+
+[ 2016-03-01T09:22:33+08:00 ] 0.0.0.0 /cc-/Show/verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001091s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001187s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+
+[ 2016-03-01T09:22:43+08:00 ] 0.0.0.0 /cc-/Show/getGoodsList.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000650s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `ccshop_goods_list` [ RunTime:0.001323s ]
+SQL: SELECT `glid`,`number`,`inventory`,`gid` FROM `ccshop_goods_list` WHERE ( `combine` = '195,198' ) LIMIT 1   [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `ccshop_goods_attr` [ RunTime:0.001113s ]
+SQL: SELECT `added` FROM `ccshop_goods_attr` WHERE ( `gtid` = 195 ) LIMIT 1   [ RunTime:0.000235s ]
+SQL: SELECT `added` FROM `ccshop_goods_attr` WHERE ( `gtid` = 198 ) LIMIT 1   [ RunTime:0.000177s ]
+

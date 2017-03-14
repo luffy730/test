@@ -1,0 +1,23 @@
+/*************************************************************************/
+/****************  公共的css文件  *****************************************/
+/*************************************************************************/
+body,div,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,select,textarea{
+	padding: 0px;
+	margin: 0px;
+}
+img{
+	border: none;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+ul,ol{
+	list-style: none;
+}
+body{
+	font-size: 12px;
+	font-family: 'Lucida Grande',Arial,'宋体';
+}

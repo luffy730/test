@@ -1,0 +1,1 @@
+<?php	return array ( 0 => 'glid', 1 => 'combine', 2 => 'number', 3 => 'inventory', 4 => 'gid', '_autoinc' => true, '_pk' => 'glid', '_type' => array ( 'glid' => 'int(10) unsigned', 'combine' => 'char(50)', 'number' => 'char(30)', 'inventory' => 'smallint(6) unsigned', 'gid' => 'int(10) unsigned', ), );?>

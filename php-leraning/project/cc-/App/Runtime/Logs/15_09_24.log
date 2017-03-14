@@ -1,0 +1,401 @@
+[ 2015-09-24T14:34:59+08:00 ] 127.0.0.1 /cc-/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002528s ]
+SQL: SHOW COLUMNS FROM `ccshop_goods` [ RunTime:0.004881s ]
+SQL: SELECT `gid`,`gname`,`pic`,`click`,`shopprice` FROM `ccshop_goods` WHERE ( `cid` = 13 ) ORDER BY rand() LIMIT 10   [ RunTime:0.006904s ]
+SQL: SELECT `gid`,`gname`,`pic`,`click`,`shopprice` FROM `ccshop_goods` WHERE ( `cid` = 13 ) ORDER BY rand() LIMIT 10   [ RunTime:0.000419s ]
+SQL: SELECT `gid`,`gname`,`pic`,`click`,`shopprice` FROM `ccshop_goods` WHERE ( `cid` = 13 ) ORDER BY rand() LIMIT 10   [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `ccshop_category` [ RunTime:0.002716s ]
+SQL: SELECT `cid`,`cname` FROM `ccshop_category` WHERE ( `pid` = 4 )  [ RunTime:0.000906s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.109464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109593s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001329s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000763s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000551s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000820s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003695s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001148s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001239s ]
+
+[ 2015-09-24T14:35:02+08:00 ] 127.0.0.1 /cc-/c/4_0.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009718s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009867s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `ccshop_category` [ RunTime:0.001133s ]
+SQL: SELECT `cid`,`pid` FROM `ccshop_category`  [ RunTime:0.000199s ]
+NOTIC: [8] Undefined index: id /www/cc-/App/Lib/Class/Unlimited.class.php 第 125 行.
+NOTIC: [8] Undefined index: id /www/cc-/App/Lib/Class/Unlimited.class.php 第 125 行.
+NOTIC: [8] Undefined index: id /www/cc-/App/Lib/Class/Unlimited.class.php 第 125 行.
+NOTIC: [8] Undefined index: id /www/cc-/App/Lib/Class/Unlimited.class.php 第 125 行.
+NOTIC: [8] Undefined index: id /www/cc-/App/Lib/Class/Unlimited.class.php 第 125 行.
+NOTIC: [8] Undefined index: id /www/cc-/App/Lib/Class/Unlimited.class.php 第 125 行.
+NOTIC: [8] Undefined index: id /www/cc-/App/Lib/Class/Unlimited.class.php 第 125 行.
+NOTIC: [8] Undefined index: id /www/cc-/App/Lib/Class/Unlimited.class.php 第 125 行.
+NOTIC: [8] Undefined index: id /www/cc-/App/Lib/Class/Unlimited.class.php 第 125 行.
+NOTIC: [8] Undefined index: id /www/cc-/App/Lib/Class/Unlimited.class.php 第 125 行.
+NOTIC: [8] Undefined index: id /www/cc-/App/Lib/Class/Unlimited.class.php 第 125 行.
+NOTIC: [8] Undefined index: id /www/cc-/App/Lib/Class/Unlimited.class.php 第 125 行.
+NOTIC: [8] Undefined index: id /www/cc-/App/Lib/Class/Unlimited.class.php 第 125 行.
+NOTIC: [8] Undefined index: id /www/cc-/App/Lib/Class/Unlimited.class.php 第 125 行.
+NOTIC: [8] Undefined index: id /www/cc-/App/Lib/Class/Unlimited.class.php 第 125 行.
+NOTIC: [8] Undefined index: id /www/cc-/App/Lib/Class/Unlimited.class.php 第 125 行.
+SQL: SHOW COLUMNS FROM `ccshop_goods` [ RunTime:0.001141s ]
+SQL: SELECT `gid` FROM `ccshop_goods` WHERE ( `cid` IN ('13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28',4) )  [ RunTime:0.001997s ]
+SQL: SHOW COLUMNS FROM `ccshop_goods_attr` [ RunTime:0.002616s ]
+SQL: SELECT `gtid`,`gtvalue`,`taid` FROM `ccshop_goods_attr` WHERE ( `gid` IN ('5','6','7','8','9','10','11','12') ) GROUP BY gtvalue  [ RunTime:0.002875s ]
+SQL: SHOW COLUMNS FROM `ccshop_type_attr` [ RunTime:0.002749s ]
+SQL: SELECT `taname` FROM `ccshop_type_attr` WHERE ( `taid` = 12 ) LIMIT 1   [ RunTime:0.000840s ]
+SQL: SELECT `taname` FROM `ccshop_type_attr` WHERE ( `taid` = 13 ) LIMIT 1   [ RunTime:0.000232s ]
+SQL: SELECT `taname` FROM `ccshop_type_attr` WHERE ( `taid` = 5 ) LIMIT 1   [ RunTime:0.000190s ]
+SQL: SELECT `taname` FROM `ccshop_type_attr` WHERE ( `taid` = 1 ) LIMIT 1   [ RunTime:0.000255s ]
+SQL: SELECT `taname` FROM `ccshop_type_attr` WHERE ( `taid` = 3 ) LIMIT 1   [ RunTime:0.000210s ]
+SQL: SELECT `taname` FROM `ccshop_type_attr` WHERE ( `taid` = 6 ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT `taname` FROM `ccshop_type_attr` WHERE ( `taid` = 2 ) LIMIT 1   [ RunTime:0.000257s ]
+SQL: SELECT `taname` FROM `ccshop_type_attr` WHERE ( `taid` = 7 ) LIMIT 1   [ RunTime:0.000500s ]
+SQL: SELECT `taname` FROM `ccshop_type_attr` WHERE ( `taid` = 8 ) LIMIT 1   [ RunTime:0.000307s ]
+SQL: SELECT `taname` FROM `ccshop_type_attr` WHERE ( `taid` = 4 ) LIMIT 1   [ RunTime:0.000583s ]
+SQL: SELECT `taname` FROM `ccshop_type_attr` WHERE ( `taid` = 9 ) LIMIT 1   [ RunTime:0.000285s ]
+SQL: SELECT `taname` FROM `ccshop_type_attr` WHERE ( `taid` = 10 ) LIMIT 1   [ RunTime:0.000206s ]
+SQL: SELECT `taname` FROM `ccshop_type_attr` WHERE ( `taid` = 11 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ccshop_goods` WHERE ( `gid` IN(5,6,7,8,9,10,11,12) ) LIMIT 1   [ RunTime:0.001723s ]
+SQL: SELECT `gid`,`gname`,`marketprice`,`shopprice`,`pic` FROM `ccshop_goods` WHERE ( `gid` IN(5,6,7,8,9,10,11,12) ) ORDER BY time DESC LIMIT 0,8   [ RunTime:0.000385s ]
+SQL: SELECT `gid`,`gname`,`pic`,`click`,`shopprice` FROM `ccshop_goods` WHERE ( `cid` = 13 ) ORDER BY rand() LIMIT 4   [ RunTime:0.000442s ]
+SQL: SELECT `gid`,`gname`,`pic`,`click`,`shopprice` FROM `ccshop_goods` WHERE ( `cid` = 13 ) ORDER BY rand() LIMIT 5   [ RunTime:0.000297s ]
+SQL: SELECT `cid`,`cname` FROM `ccshop_category` WHERE ( `pid` = 4 )  [ RunTime:0.000224s ]
+SQL: SELECT `cname` FROM `ccshop_category` WHERE ( `cid` = 4 ) LIMIT 1   [ RunTime:0.000298s ]
+SQL: SELECT `pid`,`cname`,`cid` FROM `ccshop_category` WHERE ( `cid` = 4 )  [ RunTime:0.000217s ]
+SQL: SELECT `pid`,`cname`,`cid` FROM `ccshop_category` WHERE ( `cid` = 1 )  [ RunTime:0.000181s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032388s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000556s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000262s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000147s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001613s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001276s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001483s ]
+
+[ 2015-09-24T14:35:05+08:00 ] 127.0.0.1 /cc-/12.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000679s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `ccshop_goods` [ RunTime:0.001105s ]
+SQL: SHOW COLUMNS FROM `ccshop_detail` [ RunTime:0.001199s ]
+SQL: SHOW COLUMNS FROM `ccshop_brand` [ RunTime:0.002704s ]
+SQL: SELECT goods.gid AS gid,goods.gname AS gname,goods.unit AS unit,goods.marketprice AS marketprice,goods.shopprice AS shopprice,goods.click AS click,goods.time AS time,detail.small AS small,detail.medium AS medium,detail.big AS big,detail.intro AS intro,detail.service AS service,brand.logo AS logo FROM ccshop_goods goods LEFT JOIN ccshop_detail detail ON goods.gid = detail.gid LEFT JOIN ccshop_brand brand ON goods.bid = brand.bid WHERE ( goods.gid = 12 ) LIMIT 1   [ RunTime:0.001187s ]
+ERR: 1054:Unknown column 'detail.small' in 'field list'
+ [ SQL语句 ] : SELECT goods.gid AS gid,goods.gname AS gname,goods.unit AS unit,goods.marketprice AS marketprice,goods.shopprice AS shopprice,goods.click AS click,goods.time AS time,detail.small AS small,detail.medium AS medium,detail.big AS big,detail.intro AS intro,detail.service AS service,brand.logo AS logo FROM ccshop_goods goods LEFT JOIN ccshop_detail detail ON goods.gid = detail.gid LEFT JOIN ccshop_brand brand ON goods.bid = brand.bid WHERE ( goods.gid = 12 ) LIMIT 1  
+NOTIC: [8] Undefined index: medium /www/cc-/App/Modules/Index/Action/ShowAction.class.php 第 31 行.
+NOTIC: [8] Undefined index: big /www/cc-/App/Modules/Index/Action/ShowAction.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `ccshop_goods_attr` [ RunTime:0.001151s ]
+SQL: SELECT `gtid`,`gtvalue`,`added`,`taid` FROM `ccshop_goods_attr` WHERE ( `gid` = 12 )  [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `ccshop_type_attr` [ RunTime:0.000913s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 1 ) LIMIT 1   [ RunTime:0.000221s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 2 ) LIMIT 1   [ RunTime:0.000204s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 3 ) LIMIT 1   [ RunTime:0.000204s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 4 ) LIMIT 1   [ RunTime:0.000201s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 5 ) LIMIT 1   [ RunTime:0.000200s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 6 ) LIMIT 1   [ RunTime:0.000204s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 7 ) LIMIT 1   [ RunTime:0.000200s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 8 ) LIMIT 1   [ RunTime:0.000203s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 9 ) LIMIT 1   [ RunTime:0.000189s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 10 ) LIMIT 1   [ RunTime:0.000175s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 11 ) LIMIT 1   [ RunTime:0.000197s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 12 ) LIMIT 1   [ RunTime:0.000190s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 13 ) LIMIT 1   [ RunTime:0.000268s ]
+SQL: SHOW COLUMNS FROM `ccshop_goods_list` [ RunTime:0.002730s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 12 )  [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `ccshop_remark` [ RunTime:0.002716s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ccshop_remark` WHERE ( `gid` = 12 ) LIMIT 1   [ RunTime:0.000253s ]
+SQL: SELECT `content`,`uname`,`time` FROM `ccshop_remark` WHERE ( `gid` = 12 ) ORDER BY time DESC LIMIT 0,5   [ RunTime:0.000635s ]
+SQL: SELECT `cid` FROM `ccshop_goods` WHERE ( `gid` = 12 ) LIMIT 1   [ RunTime:0.000201s ]
+SQL: SHOW COLUMNS FROM `ccshop_category` [ RunTime:0.000883s ]
+SQL: SELECT `pid`,`cname`,`cid` FROM `ccshop_category` WHERE ( `cid` = 13 )  [ RunTime:0.000234s ]
+SQL: SELECT `pid`,`cname`,`cid` FROM `ccshop_category` WHERE ( `cid` = 4 )  [ RunTime:0.000209s ]
+SQL: SELECT `pid`,`cname`,`cid` FROM `ccshop_category` WHERE ( `cid` = 1 )  [ RunTime:0.000194s ]
+SQL: SELECT `gid`,`gname`,`pic`,`click`,`shopprice` FROM `ccshop_goods` WHERE ( `cid` = 13 ) ORDER BY rand() LIMIT 10   [ RunTime:0.000325s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: shopprice /www/cc-/App/Runtime/Cache/Index/9bbf32912e20c4cc3024eb9794364a85.php 第 17 行.
+NOTIC: [8] Undefined index: gname /www/cc-/App/Runtime/Cache/Index/9bbf32912e20c4cc3024eb9794364a85.php 第 92 行.
+NOTIC: [8] Undefined index: gname /www/cc-/App/Runtime/Cache/Index/9bbf32912e20c4cc3024eb9794364a85.php 第 127 行.
+NOTIC: [8] Undefined index: logo /www/cc-/App/Runtime/Cache/Index/9bbf32912e20c4cc3024eb9794364a85.php 第 130 行.
+NOTIC: [8] Undefined index: marketprice /www/cc-/App/Runtime/Cache/Index/9bbf32912e20c4cc3024eb9794364a85.php 第 136 行.
+NOTIC: [8] Undefined index: shopprice /www/cc-/App/Runtime/Cache/Index/9bbf32912e20c4cc3024eb9794364a85.php 第 139 行.
+NOTIC: [8] Undefined index: intro /www/cc-/App/Runtime/Cache/Index/9bbf32912e20c4cc3024eb9794364a85.php 第 250 行.
+NOTIC: [8] Undefined index: service /www/cc-/App/Runtime/Cache/Index/9bbf32912e20c4cc3024eb9794364a85.php 第 256 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028073s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000312s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000251s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000142s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001167s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000619s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000695s ]
+
+[ 2015-09-24T14:35:05+08:00 ] 127.0.0.1 /cc-/Show/verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000938s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001048s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+
+[ 2015-09-24T14:35:12+08:00 ] 127.0.0.1 /cc-/Show/index/gid/9.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000824s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `ccshop_goods` [ RunTime:0.009197s ]
+SQL: SHOW COLUMNS FROM `ccshop_detail` [ RunTime:0.001520s ]
+SQL: SHOW COLUMNS FROM `ccshop_brand` [ RunTime:0.000996s ]
+SQL: SELECT goods.gid AS gid,goods.gname AS gname,goods.unit AS unit,goods.marketprice AS marketprice,goods.shopprice AS shopprice,goods.click AS click,goods.time AS time,detail.small AS small,detail.medium AS medium,detail.big AS big,detail.intro AS intro,detail.service AS service,brand.logo AS logo FROM ccshop_goods goods LEFT JOIN ccshop_detail detail ON goods.gid = detail.gid LEFT JOIN ccshop_brand brand ON goods.bid = brand.bid WHERE ( goods.gid = 9 ) LIMIT 1   [ RunTime:0.000231s ]
+ERR: 1054:Unknown column 'detail.small' in 'field list'
+ [ SQL语句 ] : SELECT goods.gid AS gid,goods.gname AS gname,goods.unit AS unit,goods.marketprice AS marketprice,goods.shopprice AS shopprice,goods.click AS click,goods.time AS time,detail.small AS small,detail.medium AS medium,detail.big AS big,detail.intro AS intro,detail.service AS service,brand.logo AS logo FROM ccshop_goods goods LEFT JOIN ccshop_detail detail ON goods.gid = detail.gid LEFT JOIN ccshop_brand brand ON goods.bid = brand.bid WHERE ( goods.gid = 9 ) LIMIT 1  
+NOTIC: [8] Undefined index: medium /www/cc-/App/Modules/Index/Action/ShowAction.class.php 第 31 行.
+NOTIC: [8] Undefined index: big /www/cc-/App/Modules/Index/Action/ShowAction.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `ccshop_goods_attr` [ RunTime:0.000982s ]
+SQL: SELECT `gtid`,`gtvalue`,`added`,`taid` FROM `ccshop_goods_attr` WHERE ( `gid` = 9 )  [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `ccshop_type_attr` [ RunTime:0.001241s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 1 ) LIMIT 1   [ RunTime:0.000262s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 2 ) LIMIT 1   [ RunTime:0.000214s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 3 ) LIMIT 1   [ RunTime:0.000253s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 4 ) LIMIT 1   [ RunTime:0.000342s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 5 ) LIMIT 1   [ RunTime:0.000195s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 6 ) LIMIT 1   [ RunTime:0.000196s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 7 ) LIMIT 1   [ RunTime:0.000150s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 8 ) LIMIT 1   [ RunTime:0.000190s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 9 ) LIMIT 1   [ RunTime:0.000210s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 10 ) LIMIT 1   [ RunTime:0.000249s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 11 ) LIMIT 1   [ RunTime:0.000206s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 12 ) LIMIT 1   [ RunTime:0.000197s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 13 ) LIMIT 1   [ RunTime:0.000195s ]
+SQL: SHOW COLUMNS FROM `ccshop_goods_list` [ RunTime:0.001099s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 9 )  [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `ccshop_remark` [ RunTime:0.001466s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ccshop_remark` WHERE ( `gid` = 9 ) LIMIT 1   [ RunTime:0.000225s ]
+SQL: SELECT `content`,`uname`,`time` FROM `ccshop_remark` WHERE ( `gid` = 9 ) ORDER BY time DESC LIMIT 0,5   [ RunTime:0.000189s ]
+SQL: SELECT `cid` FROM `ccshop_goods` WHERE ( `gid` = 9 ) LIMIT 1   [ RunTime:0.000192s ]
+SQL: SHOW COLUMNS FROM `ccshop_category` [ RunTime:0.000901s ]
+SQL: SELECT `pid`,`cname`,`cid` FROM `ccshop_category` WHERE ( `cid` = 13 )  [ RunTime:0.000244s ]
+SQL: SELECT `pid`,`cname`,`cid` FROM `ccshop_category` WHERE ( `cid` = 4 )  [ RunTime:0.000200s ]
+SQL: SELECT `pid`,`cname`,`cid` FROM `ccshop_category` WHERE ( `cid` = 1 )  [ RunTime:0.000199s ]
+SQL: SELECT `gid`,`gname`,`pic`,`click`,`shopprice` FROM `ccshop_goods` WHERE ( `cid` = 13 ) ORDER BY rand() LIMIT 10   [ RunTime:0.000338s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: shopprice /www/cc-/App/Runtime/Cache/Index/9bbf32912e20c4cc3024eb9794364a85.php 第 17 行.
+NOTIC: [8] Undefined index: gname /www/cc-/App/Runtime/Cache/Index/9bbf32912e20c4cc3024eb9794364a85.php 第 92 行.
+NOTIC: [8] Undefined index: gname /www/cc-/App/Runtime/Cache/Index/9bbf32912e20c4cc3024eb9794364a85.php 第 127 行.
+NOTIC: [8] Undefined index: logo /www/cc-/App/Runtime/Cache/Index/9bbf32912e20c4cc3024eb9794364a85.php 第 130 行.
+NOTIC: [8] Undefined index: marketprice /www/cc-/App/Runtime/Cache/Index/9bbf32912e20c4cc3024eb9794364a85.php 第 136 行.
+NOTIC: [8] Undefined index: shopprice /www/cc-/App/Runtime/Cache/Index/9bbf32912e20c4cc3024eb9794364a85.php 第 139 行.
+NOTIC: [8] Undefined index: intro /www/cc-/App/Runtime/Cache/Index/9bbf32912e20c4cc3024eb9794364a85.php 第 250 行.
+NOTIC: [8] Undefined index: service /www/cc-/App/Runtime/Cache/Index/9bbf32912e20c4cc3024eb9794364a85.php 第 256 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026184s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000361s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000257s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000142s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001220s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000558s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000637s ]
+
+[ 2015-09-24T14:35:12+08:00 ] 127.0.0.1 /cc-/Show/verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000843s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+
+[ 2015-09-24T14:35:16+08:00 ] 127.0.0.1 /cc-/c/4_0.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000979s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001080s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `ccshop_goods` [ RunTime:0.001265s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ccshop_goods` WHERE ( `gid` IN(5,6,7,8,9,10,11,12) ) LIMIT 1   [ RunTime:0.000257s ]
+SQL: SELECT `gid`,`gname`,`marketprice`,`shopprice`,`pic` FROM `ccshop_goods` WHERE ( `gid` IN(5,6,7,8,9,10,11,12) ) ORDER BY time DESC LIMIT 0,8   [ RunTime:0.000267s ]
+SQL: SELECT `gid`,`gname`,`pic`,`click`,`shopprice` FROM `ccshop_goods` WHERE ( `cid` = 13 ) ORDER BY rand() LIMIT 4   [ RunTime:0.000297s ]
+SQL: SELECT `gid`,`gname`,`pic`,`click`,`shopprice` FROM `ccshop_goods` WHERE ( `cid` = 13 ) ORDER BY rand() LIMIT 5   [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `ccshop_category` [ RunTime:0.001474s ]
+SQL: SELECT `cid`,`cname` FROM `ccshop_category` WHERE ( `pid` = 4 )  [ RunTime:0.000277s ]
+SQL: SELECT `cname` FROM `ccshop_category` WHERE ( `cid` = 4 ) LIMIT 1   [ RunTime:0.000179s ]
+SQL: SELECT `pid`,`cname`,`cid` FROM `ccshop_category` WHERE ( `cid` = 4 )  [ RunTime:0.000208s ]
+SQL: SELECT `pid`,`cname`,`cid` FROM `ccshop_category` WHERE ( `cid` = 1 )  [ RunTime:0.000164s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032100s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032210s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000544s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000261s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000144s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001421s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000569s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000664s ]
+
+[ 2015-09-24T14:35:17+08:00 ] 127.0.0.1 /cc-/12.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000781s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `ccshop_goods` [ RunTime:0.001439s ]
+SQL: SHOW COLUMNS FROM `ccshop_detail` [ RunTime:0.001115s ]
+SQL: SHOW COLUMNS FROM `ccshop_brand` [ RunTime:0.001143s ]
+SQL: SELECT goods.gid AS gid,goods.gname AS gname,goods.unit AS unit,goods.marketprice AS marketprice,goods.shopprice AS shopprice,goods.click AS click,goods.time AS time,detail.small AS small,detail.medium AS medium,detail.big AS big,detail.intro AS intro,detail.service AS service,brand.logo AS logo FROM ccshop_goods goods LEFT JOIN ccshop_detail detail ON goods.gid = detail.gid LEFT JOIN ccshop_brand brand ON goods.bid = brand.bid WHERE ( goods.gid = 12 ) LIMIT 1   [ RunTime:0.000254s ]
+ERR: 1054:Unknown column 'detail.small' in 'field list'
+ [ SQL语句 ] : SELECT goods.gid AS gid,goods.gname AS gname,goods.unit AS unit,goods.marketprice AS marketprice,goods.shopprice AS shopprice,goods.click AS click,goods.time AS time,detail.small AS small,detail.medium AS medium,detail.big AS big,detail.intro AS intro,detail.service AS service,brand.logo AS logo FROM ccshop_goods goods LEFT JOIN ccshop_detail detail ON goods.gid = detail.gid LEFT JOIN ccshop_brand brand ON goods.bid = brand.bid WHERE ( goods.gid = 12 ) LIMIT 1  
+NOTIC: [8] Undefined index: medium /www/cc-/App/Modules/Index/Action/ShowAction.class.php 第 31 行.
+NOTIC: [8] Undefined index: big /www/cc-/App/Modules/Index/Action/ShowAction.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `ccshop_goods_attr` [ RunTime:0.001162s ]
+SQL: SELECT `gtid`,`gtvalue`,`added`,`taid` FROM `ccshop_goods_attr` WHERE ( `gid` = 12 )  [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `ccshop_type_attr` [ RunTime:0.000936s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 1 ) LIMIT 1   [ RunTime:0.000241s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 2 ) LIMIT 1   [ RunTime:0.000157s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 3 ) LIMIT 1   [ RunTime:0.000212s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 4 ) LIMIT 1   [ RunTime:0.000235s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 5 ) LIMIT 1   [ RunTime:0.000215s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 6 ) LIMIT 1   [ RunTime:0.000158s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 7 ) LIMIT 1   [ RunTime:0.000179s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 8 ) LIMIT 1   [ RunTime:0.000201s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 9 ) LIMIT 1   [ RunTime:0.000225s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 10 ) LIMIT 1   [ RunTime:0.000203s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 11 ) LIMIT 1   [ RunTime:0.000202s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 12 ) LIMIT 1   [ RunTime:0.000205s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 13 ) LIMIT 1   [ RunTime:0.000169s ]
+SQL: SHOW COLUMNS FROM `ccshop_goods_list` [ RunTime:0.000990s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 12 )  [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `ccshop_remark` [ RunTime:0.001100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ccshop_remark` WHERE ( `gid` = 12 ) LIMIT 1   [ RunTime:0.000249s ]
+SQL: SELECT `content`,`uname`,`time` FROM `ccshop_remark` WHERE ( `gid` = 12 ) ORDER BY time DESC LIMIT 0,5   [ RunTime:0.000287s ]
+SQL: SELECT `cid` FROM `ccshop_goods` WHERE ( `gid` = 12 ) LIMIT 1   [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `ccshop_category` [ RunTime:0.001142s ]
+SQL: SELECT `pid`,`cname`,`cid` FROM `ccshop_category` WHERE ( `cid` = 13 )  [ RunTime:0.000257s ]
+SQL: SELECT `pid`,`cname`,`cid` FROM `ccshop_category` WHERE ( `cid` = 4 )  [ RunTime:0.000184s ]
+SQL: SELECT `pid`,`cname`,`cid` FROM `ccshop_category` WHERE ( `cid` = 1 )  [ RunTime:0.000213s ]
+SQL: SELECT `gid`,`gname`,`pic`,`click`,`shopprice` FROM `ccshop_goods` WHERE ( `cid` = 13 ) ORDER BY rand() LIMIT 10   [ RunTime:0.000658s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: shopprice /www/cc-/App/Runtime/Cache/Index/9bbf32912e20c4cc3024eb9794364a85.php 第 17 行.
+NOTIC: [8] Undefined index: gname /www/cc-/App/Runtime/Cache/Index/9bbf32912e20c4cc3024eb9794364a85.php 第 92 行.
+NOTIC: [8] Undefined index: gname /www/cc-/App/Runtime/Cache/Index/9bbf32912e20c4cc3024eb9794364a85.php 第 127 行.
+NOTIC: [8] Undefined index: logo /www/cc-/App/Runtime/Cache/Index/9bbf32912e20c4cc3024eb9794364a85.php 第 130 行.
+NOTIC: [8] Undefined index: marketprice /www/cc-/App/Runtime/Cache/Index/9bbf32912e20c4cc3024eb9794364a85.php 第 136 行.
+NOTIC: [8] Undefined index: shopprice /www/cc-/App/Runtime/Cache/Index/9bbf32912e20c4cc3024eb9794364a85.php 第 139 行.
+NOTIC: [8] Undefined index: intro /www/cc-/App/Runtime/Cache/Index/9bbf32912e20c4cc3024eb9794364a85.php 第 250 行.
+NOTIC: [8] Undefined index: service /www/cc-/App/Runtime/Cache/Index/9bbf32912e20c4cc3024eb9794364a85.php 第 256 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026789s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000388s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000306s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000178s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001409s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000704s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2015-09-24T14:35:17+08:00 ] 127.0.0.1 /cc-/Show/verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000647s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+
+[ 2015-09-24T14:35:21+08:00 ] 127.0.0.1 /cc-/7.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000838s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `ccshop_goods` [ RunTime:0.001026s ]
+SQL: SHOW COLUMNS FROM `ccshop_detail` [ RunTime:0.000993s ]
+SQL: SHOW COLUMNS FROM `ccshop_brand` [ RunTime:0.000886s ]
+SQL: SELECT goods.gid AS gid,goods.gname AS gname,goods.unit AS unit,goods.marketprice AS marketprice,goods.shopprice AS shopprice,goods.click AS click,goods.time AS time,detail.small AS small,detail.medium AS medium,detail.big AS big,detail.intro AS intro,detail.service AS service,brand.logo AS logo FROM ccshop_goods goods LEFT JOIN ccshop_detail detail ON goods.gid = detail.gid LEFT JOIN ccshop_brand brand ON goods.bid = brand.bid WHERE ( goods.gid = 7 ) LIMIT 1   [ RunTime:0.000212s ]
+ERR: 1054:Unknown column 'detail.small' in 'field list'
+ [ SQL语句 ] : SELECT goods.gid AS gid,goods.gname AS gname,goods.unit AS unit,goods.marketprice AS marketprice,goods.shopprice AS shopprice,goods.click AS click,goods.time AS time,detail.small AS small,detail.medium AS medium,detail.big AS big,detail.intro AS intro,detail.service AS service,brand.logo AS logo FROM ccshop_goods goods LEFT JOIN ccshop_detail detail ON goods.gid = detail.gid LEFT JOIN ccshop_brand brand ON goods.bid = brand.bid WHERE ( goods.gid = 7 ) LIMIT 1  
+NOTIC: [8] Undefined index: medium /www/cc-/App/Modules/Index/Action/ShowAction.class.php 第 31 行.
+NOTIC: [8] Undefined index: big /www/cc-/App/Modules/Index/Action/ShowAction.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `ccshop_goods_attr` [ RunTime:0.001433s ]
+SQL: SELECT `gtid`,`gtvalue`,`added`,`taid` FROM `ccshop_goods_attr` WHERE ( `gid` = 7 )  [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `ccshop_type_attr` [ RunTime:0.001025s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 1 ) LIMIT 1   [ RunTime:0.000225s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 2 ) LIMIT 1   [ RunTime:0.000257s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 3 ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 4 ) LIMIT 1   [ RunTime:0.000510s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 5 ) LIMIT 1   [ RunTime:0.000283s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 6 ) LIMIT 1   [ RunTime:0.000223s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 7 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 8 ) LIMIT 1   [ RunTime:0.000257s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 9 ) LIMIT 1   [ RunTime:0.000214s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 10 ) LIMIT 1   [ RunTime:0.000200s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 11 ) LIMIT 1   [ RunTime:0.000233s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 12 ) LIMIT 1   [ RunTime:0.000173s ]
+SQL: SELECT `taname`,`class` FROM `ccshop_type_attr` WHERE ( `taid` = 13 ) LIMIT 1   [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `ccshop_goods_list` [ RunTime:0.000993s ]
+SQL: SELECT `inventory` FROM `ccshop_goods_list` WHERE ( `gid` = 7 )  [ RunTime:0.000628s ]
+SQL: SHOW COLUMNS FROM `ccshop_remark` [ RunTime:0.000994s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ccshop_remark` WHERE ( `gid` = 7 ) LIMIT 1   [ RunTime:0.000224s ]
+SQL: SELECT `content`,`uname`,`time` FROM `ccshop_remark` WHERE ( `gid` = 7 ) ORDER BY time DESC LIMIT 0,5   [ RunTime:0.000264s ]
+SQL: SELECT `cid` FROM `ccshop_goods` WHERE ( `gid` = 7 ) LIMIT 1   [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `ccshop_category` [ RunTime:0.001228s ]
+SQL: SELECT `pid`,`cname`,`cid` FROM `ccshop_category` WHERE ( `cid` = 13 )  [ RunTime:0.000546s ]
+SQL: SELECT `pid`,`cname`,`cid` FROM `ccshop_category` WHERE ( `cid` = 4 )  [ RunTime:0.000187s ]
+SQL: SELECT `pid`,`cname`,`cid` FROM `ccshop_category` WHERE ( `cid` = 1 )  [ RunTime:0.000218s ]
+SQL: SELECT `gid`,`gname`,`pic`,`click`,`shopprice` FROM `ccshop_goods` WHERE ( `cid` = 13 ) ORDER BY rand() LIMIT 10   [ RunTime:0.000345s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: shopprice /www/cc-/App/Runtime/Cache/Index/9bbf32912e20c4cc3024eb9794364a85.php 第 17 行.
+NOTIC: [8] Undefined index: gname /www/cc-/App/Runtime/Cache/Index/9bbf32912e20c4cc3024eb9794364a85.php 第 92 行.
+NOTIC: [8] Undefined index: gname /www/cc-/App/Runtime/Cache/Index/9bbf32912e20c4cc3024eb9794364a85.php 第 127 行.
+NOTIC: [8] Undefined index: logo /www/cc-/App/Runtime/Cache/Index/9bbf32912e20c4cc3024eb9794364a85.php 第 130 行.
+NOTIC: [8] Undefined index: marketprice /www/cc-/App/Runtime/Cache/Index/9bbf32912e20c4cc3024eb9794364a85.php 第 136 行.
+NOTIC: [8] Undefined index: shopprice /www/cc-/App/Runtime/Cache/Index/9bbf32912e20c4cc3024eb9794364a85.php 第 139 行.
+NOTIC: [8] Undefined index: intro /www/cc-/App/Runtime/Cache/Index/9bbf32912e20c4cc3024eb9794364a85.php 第 250 行.
+NOTIC: [8] Undefined index: service /www/cc-/App/Runtime/Cache/Index/9bbf32912e20c4cc3024eb9794364a85.php 第 256 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027244s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027329s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000382s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000307s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000173s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001419s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000598s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2015-09-24T14:35:21+08:00 ] 127.0.0.1 /cc-/Show/verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000755s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+

@@ -1,0 +1,2 @@
+[0525/145308:ERROR:proxy_service_factory.cc(105)] Cannot use V8 Proxy resolver in single process mode.
+[0525/145321:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.

@@ -1,0 +1,12 @@
+[ 2016-06-15T10:26:04+08:00 ]NOTICE: implode(): Invalid arguments passed/www/c65/project/list-demo/App/Home/Controller/ListController.php (24).
+[ 2016-06-15T10:26:04+08:00 ]EXCEPTION: SELECT  *  FROM ccshop_goods_attr WHERE gid in() GROUP BY gtvalue ;BindParams:array (
+)42000;1064;You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') GROUP BY gtvalue' at line 1
+[ 2016-06-15T10:26:06+08:00 ]NOTICE: implode(): Invalid arguments passed/www/c65/project/list-demo/App/Home/Controller/ListController.php (24).
+[ 2016-06-15T10:26:06+08:00 ]EXCEPTION: SELECT  *  FROM ccshop_goods_attr WHERE gid in() GROUP BY gtvalue ;BindParams:array (
+)42000;1064;You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') GROUP BY gtvalue' at line 1
+[ 2016-06-15T10:26:08+08:00 ]NOTICE: implode(): Invalid arguments passed/www/c65/project/list-demo/App/Home/Controller/ListController.php (24).
+[ 2016-06-15T10:26:08+08:00 ]EXCEPTION: SELECT  *  FROM ccshop_goods_attr WHERE gid in() GROUP BY gtvalue ;BindParams:array (
+)42000;1064;You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') GROUP BY gtvalue' at line 1
+[ 2016-06-15T10:26:10+08:00 ]NOTICE: implode(): Invalid arguments passed/www/c65/project/list-demo/App/Home/Controller/ListController.php (24).
+[ 2016-06-15T10:26:10+08:00 ]EXCEPTION: SELECT  *  FROM ccshop_goods_attr WHERE gid in() GROUP BY gtvalue ;BindParams:array (
+)42000;1064;You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') GROUP BY gtvalue' at line 1

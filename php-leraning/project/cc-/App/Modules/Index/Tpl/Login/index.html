@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/header.css" />
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/footer.css" />
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/login.css" />
+	<script type="text/javascript" src="__PUBLIC__/Js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/Js/common.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/Js/login.js"></script>
+</head>
+<body>
+	<!-- 头部区域 开始 -->
+	<include file="Common:header" />
+	<!-- 头部区域 结束 -->
+
+	<!-- 主体区域 开始 -->
+	<div class="main">
+		<!-- 中间登录区域 开始 -->
+		<div id='login_form'>
+			<p class='have'>尚未注册？<a href="{:U('Register/index')}">立即注册</a></p>
+			<div id='login'>
+				<h1>用户登录</h1>
+				<form action="javascript:alert('本演示项目已关闭登录功能！')" method='post' name='login'>
+					<ul class='login_form'>
+						<li><span class='user'>账户名 :</span><input type="text" name='loginname' class='username' placeholder="用户名/邮箱"/><span class='loginname'></span></li>
+						<li><span class='pw'>密码 :</span><input type="password" name='loginpwd' class='pwd'/><span class='loginpwd'></span></li>
+						<li>
+							<input type="submit" name="sub" value='' class='log'/>
+							<input type="checkbox" class='box'/><span class='save'>保存登录信息</span>
+						</li>
+					</ul>
+				</form>
+			</div>
+			<div id="pic_box">
+			   	<div id="small">
+			   		<a href="__ROOT__"><img src="__PUBLIC__/Images/log1.jpg" list="__PUBLIC__/Images/log1_1.jpg" alt="" /></a>
+			   		<a href="__ROOT__"><img src="__PUBLIC__/Images/log2.jpg" list="__PUBLIC__/Images/log2_2.jpg" alt="" /></a>
+			   		<a href="__ROOT__"><img src="__PUBLIC__/Images/log3.jpg" list="__PUBLIC__/Images/log3_3.jpg" alt="" /></a>
+			   		<a href="__ROOT__"><img src="__PUBLIC__/Images/log4.jpg" list="__PUBLIC__/Images/log4_4.jpg" alt="" /></a>
+			   	</div>
+			   	<div id="big"><a href="#"><img src="" alt="" /></a></div>
+			</div>
+		</div>
+		<!-- 中间登录区域 结束 -->
+	</div>
+	<!-- 主体区域 结束 -->
+
+	<!-- 页脚 部分 开始 -->
+	<include file="Common:footer" />
+	<!-- 页脚 部分 结束 -->
+</body>
+</html>

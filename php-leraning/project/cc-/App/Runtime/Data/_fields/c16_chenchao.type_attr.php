@@ -1,0 +1,1 @@
+<?php	return array ( 0 => 'taid', 1 => 'taname', 2 => 'tavalue', 3 => 'class', 4 => 'tid', '_autoinc' => true, '_pk' => 'taid', '_type' => array ( 'taid' => 'int(10) unsigned', 'taname' => 'varchar(20)', 'tavalue' => 'varchar(255)', 'class' => 'tinyint(1) unsigned', 'tid' => 'int(10) unsigned', ), );?>
